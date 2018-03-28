@@ -62,9 +62,6 @@ export default class Nav extends Component {
               <NavLink className="nav-link" to="https://facebook.com/"><Fa icon="facebook" /></NavLink>
             </NavItem>
             <NavItem className="">
-              <NavLink className="nav-link" to="https://twitter.com/"><Fa icon="twitter" /></NavLink>
-            </NavItem>
-            <NavItem className="">
               <NavLink className="nav-link" to="https://instagram.com/"><Fa icon="instagram" /></NavLink>
             </NavItem>
             {/* </div> */}

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './App.css';
 
 import Home from './Home';
+import About from './about';
 import Nav from './Navbar';
 import FooterPage from './Footer';
 
@@ -15,6 +16,7 @@ export default class App extends Component {
                     <Nav />
                     <Switch>
                         <Route exact path='/' component={Home} />
+                        <Route exact path='/about' component={About} />
                     </Switch>
                     <FooterPage />
                 </Fragment>

@@ -4,7 +4,7 @@ import { Col, Container, Row, Footer, FormInline, Input, Button } from 'mdbreact
 export default class FooterPage extends Component {
     render() {
         return (
-            <Footer color="black" className="font-small pt-4 mt-4">
+            <Footer color="black" className="font-small pt-4 mt-4" id="footer">
                 <Container className="text-left">
                     <Row>
                         <Col sm="3">

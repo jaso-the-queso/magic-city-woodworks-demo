@@ -8,10 +8,10 @@ export default class Home extends Component {
     
     render() {
         return (
-            <Fragment>
+            <Fragment id='wrap'>
                 <Car />
-                <div className='container my-4 justify-content-center'>
-                    <div className='row'>
+                <div className='container my-4 justify-content-center' id="main">
+                    <div className='row main'>
                         <div className='col-md-3'>
                             <p className='invisible'>.</p>
                         </div>

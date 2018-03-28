@@ -21,6 +21,27 @@
   height: 20px;
 }
 
-/* Carousel {
-  height: 550px;
-} */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  /* padding-bottom: 20em; */
+}
+
+#footer {
+  position: relative;
+  margin-top: -20em;
+  height: 20em;
+  clear: both;
+}
