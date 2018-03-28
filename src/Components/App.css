@@ -1,9 +1,9 @@
 
-.view {
+/* .view {
   background: url("https://static1.squarespace.com/static/52a4ebc0e4b03685242eb1df/590cd8aec534a56c758faf51/5a2fea899140b7e21b739c37/1513951595039/Opening+Banner.png?format=1500w")no-repeat center center;
   background-size: cover;
   height: 50em;
-}    
+}     */
 .navbar {
   background-color: transparent;
 }
@@ -20,3 +20,7 @@
   width: 20px;
   height: 20px;
 }
+
+/* Carousel {
+  height: 550px;
+} */

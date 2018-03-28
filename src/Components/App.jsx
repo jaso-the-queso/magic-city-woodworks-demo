@@ -4,6 +4,7 @@ import './App.css';
 
 import Home from './Home';
 import Nav from './Navbar';
+import FooterPage from './Footer';
 
 export default class App extends Component {
 
@@ -15,6 +16,7 @@ export default class App extends Component {
                     <Switch>
                         <Route exact path='/' component={Home} />
                     </Switch>
+                    <FooterPage />
                 </Fragment>
             </Router> 
         )
