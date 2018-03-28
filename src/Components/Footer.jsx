@@ -30,7 +30,7 @@ export default class FooterPage extends Component {
                             <h5 className="title">MCWW NEWSLETTER</h5>
                             <FormInline>
                                 <Input label="Type your email" icon="envelope" group type="email" />
-                                <Button outline color="white">Login</Button>
+                                <Button outline color="white">SIGN UP</Button>
                             </FormInline>
                         </Col>
                     </Row>
