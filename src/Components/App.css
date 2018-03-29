@@ -45,3 +45,19 @@ body {
   height: 20em;
   clear: both;
 }
+
+.smalls {
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.smalls img {
+  height: 200px;
+  width: 300px;
+}
+
+/* .product_carousel img {
+  height: 400px;
+  max-height: 400px;
+} */

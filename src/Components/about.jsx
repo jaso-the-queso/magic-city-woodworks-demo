@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import {  } from 'mdbreact';
+import { } from 'mdbreact';
 
+import Graph from './Graph';
 
 export default class About extends Component {
 
@@ -9,6 +10,15 @@ export default class About extends Component {
         return (
             <Fragment id='wrap'>
                 <div className='container my-5 justify-content-center' id="main">
+                    <div className='row main pt-5'>
+                        <div className='col-md-3'>
+                            <p className='invisible'>.</p>
+                        </div>
+                        {/* <Graph /> */}
+                        <div className='col-md-3'>
+                            <p className='invisible'>.</p>
+                        </div>
+                    </div>
                     <div className='row main pt-5'>
                         <div className='col-md-3'>
                             <p className='invisible'>.</p>
@@ -33,7 +43,7 @@ export default class About extends Component {
                         <div className='col-md-6 border-bottom text-center'>
                             <h2 className=' py-4'>“Magic City Woodworks is special due to the fellowship, learning experience and the faith aspect.”</h2>
                             <p className=''>
-                               - DEANGLO STEPHENS (BUILDER)
+                                - DEANGLO STEPHENS (BUILDER)
                             </p>
                             <img className="mb-5" src="../pics/worker.jpg" />
                         </div>
