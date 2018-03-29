@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './App.css';
 
 import Home from './Home';
-import About from './about';
-import Contact from './contact';
+import About from './About';
+import Contact from './Contact';
 import Nav from './Navbar';
 import FooterPage from './Footer';
 
@@ -22,7 +22,7 @@ export default class App extends Component {
                     </Switch>
                     <FooterPage />
                 </Fragment>
-            </Router> 
+            </Router>
         )
     }
 } 
