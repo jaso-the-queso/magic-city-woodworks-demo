@@ -1,9 +1,9 @@
 
-.view {
+/* .view {
   background: url("https://static1.squarespace.com/static/52a4ebc0e4b03685242eb1df/590cd8aec534a56c758faf51/5a2fea899140b7e21b739c37/1513951595039/Opening+Banner.png?format=1500w")no-repeat center center;
   background-size: cover;
   height: 50em;
-}    
+}     */
 .navbar {
   background-color: transparent;
 }
@@ -20,3 +20,44 @@
   width: 20px;
   height: 20px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  /* padding-bottom: 20em; */
+}
+
+#footer {
+  position: relative;
+  margin-top: -20em;
+  height: 20em;
+  clear: both;
+}
+
+.smalls {
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.smalls img {
+  height: 200px;
+  width: 300px;
+}
+
+/* .product_carousel img {
+  height: 400px;
+  max-height: 400px;
+} */

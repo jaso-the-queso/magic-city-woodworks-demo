@@ -1,16 +1,14 @@
 import React, { Component, Fragment } from 'react';
 import { Carousel, CarouselInner, CarouselItem, CarouselControl, CarouselCaption } from 'mdbreact';
 
-
-
-export default class Car extends Component {
+export default class Other_Car extends Component {
   constructor(props) {
     super(props);
     this.next = this.next.bind(this);
     this.prev = this.prev.bind(this);
     this.state = {
       activeItem: 1,
-      maxLength: 5
+      maxLength: 8
     };
   }
 
@@ -49,31 +47,49 @@ export default class Car extends Component {
         <CarouselInner>
           <CarouselItem itemId="1">
             <div className="view hm-black-light">
-              <img className="d-block w-100" src="../pics/car-1.png" alt="First slide" />
+              <img className="d-block w-100" src="../pics/other_1.jpg" alt="First slide" />
               <div className="mask"></div>
             </div>
           </CarouselItem>
           <CarouselItem itemId="2">
             <div className="view hm-black-strong">
-              <img className="d-block w-100" src="../pics/car-2.png" alt="Second slide" />
+              <img className="d-block w-100" src="../pics/other_2.jpg" alt="Second slide" />
               <div className="mask"></div>
             </div>
           </CarouselItem>
           <CarouselItem itemId="3">
             <div className="view hm-black-slight">
-              <img className="d-block w-100" src="../pics/car-3.png" alt="Third slide" />
+              <img className="d-block w-100" src="../pics/other_3.jpg" alt="Third slide" />
               <div className="mask"></div>
             </div>
           </CarouselItem>
           <CarouselItem itemId="4">
             <div className="view hm-black-light">
-              <img className="d-block w-100" src="../pics/car-4.png" alt="Fourth item" />
+              <img className="d-block w-100" src="../pics/other_4.png" alt="Fourth item" />
               <div className="mask"></div>
             </div>
           </CarouselItem>
           <CarouselItem itemId="5">
             <div className="view hm-black-light">
-              <img className="d-block w-100" src="../pics/car-5.png" alt="Fifth item" />
+              <img className="d-block w-100" src="../pics/other_5.jpg" alt="Fifth item" />
+              <div className="mask"></div>
+            </div>
+          </CarouselItem>
+          <CarouselItem itemId="6">
+            <div className="view hm-black-light">
+              <img className="d-block w-100" src="../pics/other_6.png" alt="Fifth item" />
+              <div className="mask"></div>
+            </div>
+          </CarouselItem>
+          <CarouselItem itemId="7">
+            <div className="view hm-black-light">
+              <img className="d-block w-100" src="../pics/other_7.jpg" alt="Fifth item" />
+              <div className="mask"></div>
+            </div>
+          </CarouselItem>
+          <CarouselItem itemId="8">
+            <div className="view hm-black-light">
+              <img className="d-block w-100" src="../pics/other_8.jpg" alt="Fifth item" />
               <div className="mask"></div>
             </div>
           </CarouselItem>
