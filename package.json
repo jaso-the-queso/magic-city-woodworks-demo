@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "4.0.0",
     "font-awesome": "4.7.0",
+    "google-map-react": "^0.34.0",
     "mdbreact": "git+https://github.com/mdbootstrap/React-Bootstrap-with-Material-Design.git",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

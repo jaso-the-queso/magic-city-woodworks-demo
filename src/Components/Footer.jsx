@@ -36,7 +36,7 @@ export default class FooterPage extends Component {
               <h5 className="title">LOCATION</h5>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#!">The Shop</a>
+                  <a href="/location">The Shop</a>
                 </li>
               </ul>
             </Col>

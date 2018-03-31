@@ -7,6 +7,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Gallery from "./Gallery";
 import Donate from "./Donate";
+import Map from "./Map";
 import Nav from "./Navbar";
 import FooterPage from "./Footer";
 
@@ -22,6 +23,7 @@ export default class App extends Component {
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/gallery" component={Gallery} />
             <Route exact path="/donate" component={Donate} />
+            <Route exact path="/location" component={Map} />
           </Switch>
           <FooterPage />
         </Fragment>
