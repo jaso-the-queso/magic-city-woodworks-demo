@@ -15,7 +15,7 @@ export default class FooterPage extends Component {
       <Footer color="black" className="font-small pt-4 mt-4" id="footer">
         <Container className="text-left">
           <Row>
-            <Col sm="3">
+            <Col sm="2">
               <h5 className="title font-weight-bold">MAGIC CITY WOODWORKS</h5>
               <p>
                 931 28th Street North <br /> Birmingham, AL
@@ -24,18 +24,23 @@ export default class FooterPage extends Component {
                 (205) 983-7435 <br /> info@magiccitywoodworks.org
               </p>
             </Col>
-            <Col sm="3">
+            <Col sm="2">
               <h5 className="title">INFO</h5>
               <ul className="list-unstyled">
                 <li>
                   <a href="#!">Contact</a>
                 </li>
+              </ul>
+            </Col>
+            <Col sm="2">
+              <h5 className="title">LOCATIONS</h5>
+              <ul>
                 <li>
                   <a href="#!">Stores</a>
                 </li>
               </ul>
             </Col>
-            <Col sm="3">
+            <Col sm="2">
               <h5 className="title">SOCIAL</h5>
               <ul className="list-unstyled">
                 <li>
@@ -46,7 +51,7 @@ export default class FooterPage extends Component {
                 </li>
               </ul>
             </Col>
-            <Col sm="3">
+            <Col sm="2">
               <h5 className="title">MCWW NEWSLETTER</h5>
               <FormInline>
                 <Input
