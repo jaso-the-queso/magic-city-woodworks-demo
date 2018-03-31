@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import { Carousel, CarouselInner, CarouselItem, CarouselControl, CarouselCaption } from 'mdbreact';
+import React, { Component } from 'react';
+import { Carousel, CarouselInner, CarouselItem, CarouselControl } from 'mdbreact';
 
 export default class Other_Car extends Component {
   constructor(props) {

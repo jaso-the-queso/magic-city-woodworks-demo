@@ -1,10 +1,8 @@
 import React, { Component, Fragment } from 'react';
-import { Link } from 'react-router-dom';
-import { } from 'mdbreact';
 
-import Tables_Car from './Tables_Car';
-import Edge_Car from './Edge_Car';
-import Other_Car from './Other_Car'
+import TablesCar from './Tables_Car';
+import EdgeCar from './Edge_Car';
+import OtherCar from './Other_Car'
 
 export default class Gallery extends Component {
 
@@ -41,7 +39,7 @@ export default class Gallery extends Component {
                             <p className='invisible'>.</p>
                         </div>
                         <div className='col-md-8 text-center'>
-                            <Tables_Car />
+                            <TablesCar />
                         </div>
                         <div className='col-md-2'>
                             <p className='invisible'>.</p>
@@ -64,7 +62,7 @@ export default class Gallery extends Component {
                             <p className='invisible'>.</p>
                         </div>
                         <div className='col-md-8 text-center'>
-                            <Edge_Car />
+                            <EdgeCar />
                         </div>
                         <div className='col-md-2'>
                             <p className='invisible'>.</p>
@@ -87,7 +85,7 @@ export default class Gallery extends Component {
                             <p className='invisible'>.</p>
                         </div>
                         <div className='col-md-8 text-center'>
-                            <Other_Car />
+                            <OtherCar />
                         </div>
                         <div className='col-md-2'>
                             <p className='invisible'>.</p>
@@ -107,16 +105,16 @@ export default class Gallery extends Component {
                     </div>
                     <div className='row main mb-4'>
                         <div className='col-md-3 smalls'>
-                            <img src="../pics/small_1.jpg" />
+                            <img src="../pics/small_1.jpg" alt="img-1"/>
                         </div>
                         <div className='col-md-3 smalls'>
-                            <img src="../pics/small_2.jpg" />
+                            <img src="../pics/small_2.jpg" alt="img-2"/>
                         </div>
                         <div className='col-md-3 smalls'>
-                            <img src="../pics/small_3.jpg" />
+                            <img src="../pics/small_3.jpg" alt="img-3"/>
                         </div>
                         <div className='col-md-3 smalls'>
-                            <img src="../pics/small_4.jpg" />
+                            <img src="../pics/small_4.jpg" alt="img-4"/>
                         </div>
                     </div>
                 </div>

@@ -1,8 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Link } from 'react-router-dom';
-import { } from 'mdbreact';
 
-import Graph from './Graph';
 
 export default class About extends Component {
 
@@ -14,7 +11,6 @@ export default class About extends Component {
                         <div className='col-md-3'>
                             <p className='invisible'>.</p>
                         </div>
-                        {/* <Graph /> */}
                         <div className='col-md-3'>
                             <p className='invisible'>.</p>
                         </div>
@@ -45,7 +41,7 @@ export default class About extends Component {
                             <p className=''>
                                 - DEANGLO STEPHENS (BUILDER)
                             </p>
-                            <img className="mb-5" src="../pics/worker.jpg" />
+                            <img className="mb-5" src="../pics/worker.jpg" alt="Sorry Not Found"/>
                         </div>
                         <div className='col-md-3'>
                             <p className='invisible'>.</p>

@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import { Carousel, CarouselInner, CarouselItem, CarouselControl, CarouselCaption } from 'mdbreact';
+import React, { Component } from 'react';
+import { Carousel, CarouselInner, CarouselItem, CarouselControl } from 'mdbreact';
 
 
 
@@ -45,7 +45,7 @@ export default class Car extends Component {
       <Carousel
         activeItem={this.state.activeItem}
         next={this.next}
-        className="z-depth-1">
+        className="z-depth-1-half">
         <CarouselInner>
           <CarouselItem itemId="1">
             <div className="view hm-black-light">

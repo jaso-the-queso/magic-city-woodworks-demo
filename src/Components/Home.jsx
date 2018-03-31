@@ -1,15 +1,14 @@
-import React, { Component, Fragment } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
 import { Button } from 'mdbreact';
 
-import Car from './Carousel.jsx';
+import Carousel from './Carousel.jsx';
 
 export default class Home extends Component {
     
     render() {
         return (
-            <Fragment id='wrap'>
-                <Car />
+            <div className="container-fluid">
+                <Carousel />
                 <div className='container my-4 justify-content-center' id="main">
                     <div className='row main'>
                         <div className='col-md-3'>
@@ -24,7 +23,7 @@ export default class Home extends Component {
                         </div>
                     </div>
                 </div>
-            </Fragment>
+            </div>
         );
     }
 } 

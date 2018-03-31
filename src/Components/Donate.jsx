@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import { Link } from 'react-router-dom';
 import { Button } from 'mdbreact';
 
 export default class Donate extends Component {
@@ -30,7 +29,7 @@ export default class Donate extends Component {
                         </div>
                         <div className='col-md-6 text-center border rounded-top grey lighten-4 '>
                             <div className='row'>
-                                <img src='../pics/donate_logo.png' className='col-md-4 py-3 pl-3 rounded' />
+                                <img src='../pics/donate_logo.png' className='col-md-4 py-3 pl-3 rounded' alt="donate-logo"/>
                                 <div className='col py-3'>
                                     <p>Your donation</p>
                                     <h1>$0.00</h1>

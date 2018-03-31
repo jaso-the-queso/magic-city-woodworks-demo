@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { Navbar, NavbarBrand, NavbarToggler, Collapse, NavbarNav, NavItem, NavLink, Fa } from 'mdbreact';
+import { Navbar, NavbarToggler, Collapse, NavbarNav, NavItem, NavLink, Fa } from 'mdbreact';
 
 
 // const NavLink = require('react-router-dom').NavLink;
@@ -29,7 +28,7 @@ export default class Nav extends Component {
         <Collapse isOpen={this.state.collapse} navbar>
           <NavbarNav className="mr-auto col-md-5" onClick={this.onClick}>
             <NavItem>
-              <img src="../pics/dickbutt.png" className="test" />
+              <img src="../pics/mcww-logo.png" className="test" alt="logo"/>
             </NavItem>
             <NavItem>
               <NavLink className="nav-link" to="/">Home</NavLink>
@@ -50,7 +49,7 @@ export default class Nav extends Component {
               <NavLink className="nav-link" to="/gallery">Gallery</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="/apply">Apply</NavLink>
+              <a className="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSetHbRlMQQALox7nZpgRa-66Vp8_-_Z9Zy05yxT_aU0W75ZJg/viewform?c=0&w=1">Apply</a>
             </NavItem>
             <NavItem>
               <NavLink className="nav-link" to="/donate">Donate</NavLink>
@@ -59,7 +58,7 @@ export default class Nav extends Component {
           <NavbarNav className="ml-auto col-md-1">
             {/* <div className="row"> */}
             <NavItem className="">
-              <NavLink className="nav-link" to="https://facebook.com/"><Fa icon="facebook" /></NavLink>
+              <a className="nav-link" href="https://www.facebook.com/MagicCityWoodworks/"><Fa icon="facebook" /></a>
             </NavItem>
             <NavItem className="">
               <NavLink className="nav-link" to="https://instagram.com/"><Fa icon="instagram" /></NavLink>
