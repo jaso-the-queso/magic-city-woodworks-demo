@@ -48,7 +48,7 @@ export default class Nav extends Component {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="/shop">
+              <NavLink className="nav-link" to="/shop_main">
                 Shop
               </NavLink>
             </NavItem>

@@ -17,7 +17,7 @@ export default class Contact extends Component {
                 <div className="row">
                   <div className="col-md-6">
                     <Input
-                      label="First name"
+                      label="First Name"
                       icon="user"
                       group
                       type="email"
@@ -28,7 +28,7 @@ export default class Contact extends Component {
                   </div>
                   <div className="col-md-6">
                     <Input
-                      label="Last name"
+                      label="Last Name"
                       group
                       type="email"
                       validate
@@ -38,7 +38,7 @@ export default class Contact extends Component {
                   </div>
                 </div>
                 <Input
-                  label="Your email"
+                  label="Email Address"
                   icon="envelope"
                   group
                   type="email"
@@ -55,10 +55,10 @@ export default class Contact extends Component {
                   error="wrong"
                   success="right"
                 />
-                <Input type="textarea" label="Your message" icon="pencil" />
+                <Input type="textarea" label="Your Message" icon="pencil" />
                 <div className="text-center">
                   <Button outline color="black">
-                    Send <Fa icon="paper-plane-o" className="ml-1" />
+                    Submit <Fa icon="paper-plane-o" className="ml-1" />
                   </Button>
                 </div>
               </form>

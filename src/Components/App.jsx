@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import Gallery from "./Gallery";
 import Donate from "./Donate";
 import Map from "./Map";
+import Shop_Main from "./Shop_Main";
 import Nav from "./Navbar";
 import FooterPage from "./Footer";
 
@@ -24,6 +25,7 @@ export default class App extends Component {
             <Route exact path="/gallery" component={Gallery} />
             <Route exact path="/donate" component={Donate} />
             <Route exact path="/location" component={Map} />
+            <Route exact path="/shop_main" component={Shop_Main} />
           </Switch>
           <FooterPage />
         </Fragment>

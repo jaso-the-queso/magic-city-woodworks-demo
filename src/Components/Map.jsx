@@ -37,7 +37,7 @@ export default class Map extends Component {
             <p>(205) 983-7435</p>
           </div>
         </div>
-        <div className="row">
+        <div className="row ">
           <div className="col-12">
             <div
               className="z-depth-1-half"
@@ -60,34 +60,6 @@ export default class Map extends Component {
                 />
               </GoogleMapReact>
             </div>
-          </div>
-        </div>
-        <div className="row main pt-2 mb-4">
-          <div className="col-md-3">
-            <p className="invisible">.</p>
-          </div>
-          <div className="col-md-6 border-bottom text-center">
-            <h2 className="mb-5 mt-5">Our Shop</h2>
-          </div>
-          <div className="col-md-3">
-            <p className="invisible">.</p>
-          </div>
-        </div>
-        <div className="row main pt-2 mb-4">
-          <div className="col-md-4 text-center">
-            <h2 className="font-weight-bold">Address</h2>
-            <p>931 28th St N</p>
-            <p>Birmingham, AL 35203</p>
-          </div>
-          <div className="col-md-4 text-center">
-            <h2 className="font-weight-bold">Email</h2>
-            <p>Please email us at</p>
-            <p className="font-italic">info@magiccitywoodworks.org</p>
-            <p>for tour inquires</p>
-          </div>
-          <div className="col-md-4 text-center">
-            <h2 className="font-weight-bold">Phone Number</h2>
-            <p>(205) 983-7435</p>
           </div>
         </div>
       </div>
