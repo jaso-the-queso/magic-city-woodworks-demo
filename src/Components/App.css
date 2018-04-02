@@ -52,6 +52,9 @@ body {
   width: 300px;
 }
 
+.button-text {
+  font-size: 5vw;
+}
 /* .product_carousel img {
   height: 400px;
   max-height: 400px;

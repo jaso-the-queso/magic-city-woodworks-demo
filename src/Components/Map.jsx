@@ -9,6 +9,34 @@ export default class Map extends Component {
   render() {
     return (
       <div className="container">
+        <div className="row main pt-5 mt-5">
+          <div className="col-md-3">
+            <p className="invisible">.</p>
+          </div>
+          <div className="col-md-6 border-bottom text-center">
+            <h1 className="mb-3 mt-4">Our Shop</h1>
+          </div>
+          <div className="col-md-3">
+            <p className="invisible">.</p>
+          </div>
+        </div>
+        <div className="row main pt-2 mt-4">
+          <div className="col-md-4 text-center">
+            <h2 className="font-weight-bold">Address</h2>
+            <p>931 28th St N</p>
+            <p>Birmingham, AL 35203</p>
+          </div>
+          <div className="col-md-4 text-center">
+            <h2 className="font-weight-bold">Email</h2>
+            <p>Please email us at</p>
+            <p className="font-italic">info@magiccitywoodworks.org</p>
+            <p>for tour inquires</p>
+          </div>
+          <div className="col-md-4 text-center">
+            <h2 className="font-weight-bold">Phone Number</h2>
+            <p>(205) 983-7435</p>
+          </div>
+        </div>
         <div className="row">
           <div className="col-12">
             <div
@@ -39,24 +67,28 @@ export default class Map extends Component {
             <p className="invisible">.</p>
           </div>
           <div className="col-md-6 border-bottom text-center">
-            <h2 className="mb-5 mt-3">Our Shop</h2>
+            <h2 className="mb-5 mt-5">Our Shop</h2>
           </div>
           <div className="col-md-3">
             <p className="invisible">.</p>
           </div>
         </div>
-        <div className="row">
-          <h2>Birmingham, AL</h2>
-        </div>
-        <div className="row">
-          <h6 className="col-4">931 28th St N</h6>
-          <h6 className="col-4">
-            Please Email info@magiccitywoodworks.org for tour inquires
-          </h6>
-          <h6 className="col-4">Phone: (205) 983 7435</h6>
-        </div>
-        <div className="row">
-          <h6 className="col-4">Birmingham, A: 35203</h6>
+        <div className="row main pt-2 mb-4">
+          <div className="col-md-4 text-center">
+            <h2 className="font-weight-bold">Address</h2>
+            <p>931 28th St N</p>
+            <p>Birmingham, AL 35203</p>
+          </div>
+          <div className="col-md-4 text-center">
+            <h2 className="font-weight-bold">Email</h2>
+            <p>Please email us at</p>
+            <p className="font-italic">info@magiccitywoodworks.org</p>
+            <p>for tour inquires</p>
+          </div>
+          <div className="col-md-4 text-center">
+            <h2 className="font-weight-bold">Phone Number</h2>
+            <p>(205) 983-7435</p>
+          </div>
         </div>
       </div>
     );

@@ -14,15 +14,29 @@ export default class Contact extends Component {
               <h2 className="mb-5 text-center">Inquiries & Comments</h2>
               <form>
                 <p className="h5 text-center mb-4">Write to us</p>
-                <Input
-                  label="Your name"
-                  icon="user"
-                  group
-                  type="email"
-                  validate
-                  error="wrong"
-                  success="right"
-                />
+                <div className="row">
+                  <div className="col-md-6">
+                    <Input
+                      label="First name"
+                      icon="user"
+                      group
+                      type="email"
+                      validate
+                      error="wrong"
+                      success="right"
+                    />
+                  </div>
+                  <div className="col-md-6">
+                    <Input
+                      label="Last name"
+                      group
+                      type="email"
+                      validate
+                      error="wrong"
+                      success="right"
+                    />
+                  </div>
+                </div>
                 <Input
                   label="Your email"
                   icon="envelope"
