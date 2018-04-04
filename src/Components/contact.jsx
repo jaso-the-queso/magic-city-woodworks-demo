@@ -6,12 +6,39 @@ export default class Contact extends Component {
     return (
       <Fragment id="wrap">
         <div className="container my-5" id="main">
+        <div className="row main pt-5 mt-5">
+          <div className="col-md-3">
+            <p className="invisible">.</p>
+          </div>
+          <div className="col-md-6 border-bottom text-center">
+            <h1 className="mb-3 mt-4">Our Shop</h1>
+          </div>
+          <div className="col-md-3">
+            <p className="invisible">.</p>
+          </div>
+        </div>
+        <div className="row main pt-2 mt-4">
+          <div className="col-md-4 text-center">
+            <h2 className="font-weight-bold">Address</h2>
+            <p>931 28th St N</p>
+            <p>Birmingham, AL 35203</p>
+          </div>
+          <div className="col-md-4 text-center">
+            <h2 className="font-weight-bold">Email</h2>
+            <p>Please email us at</p>
+            <p className="font-italic">info@magiccitywoodworks.org</p>
+            <p>for tour inquires</p>
+          </div>
+          <div className="col-md-4 text-center">
+            <h2 className="font-weight-bold">Phone Number</h2>
+            <p>(205) 983-7435</p>
+          </div>
+        </div>
           <div className="row main pt-5">
             <div className="col-md-1">
               <p className="invisible">.</p>
             </div>
-            <div className="col-md-10  pt-4 ">
-              <h2 className="mb-5 text-center">Inquiries & Comments</h2>
+            <div className="col-md-10  pt-3 ">
               <form>
                 <p className="h5 text-center mb-4">Write to us</p>
                 <div className="row">
@@ -67,6 +94,7 @@ export default class Contact extends Component {
               <p className="invisible">.</p>
             </div>
           </div>
+          
         </div>
       </Fragment>
     );

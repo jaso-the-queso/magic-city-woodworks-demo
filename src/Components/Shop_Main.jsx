@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Button, Card, CardBody, CardImage, CardTitle, CardText } from 'mdbreact';
+import { Button, Card, CardBody, CardImage, CardText } from 'mdbreact';
 
 export default class Shop_Main extends Component {
 
@@ -22,7 +22,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/coasters_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/small_3.jpg" />
                             <CardBody>
-                                <CardTitle>Wooden Coasters</CardTitle>
+                                <h6>Wooden Coasters</h6>
                                 <CardText>$20.00</CardText>
                             </CardBody>
                         </Link>
@@ -32,7 +32,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/juice_groove_cutting_board_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/groove_1.jpg" />
                             <CardBody>
-                                <CardTitle>Juice Groove Cutting Board</CardTitle>
+                                <h6>Juice Groove Cutting Board</h6>
                                 <CardText>$70.00</CardText>
                             </CardBody>
                         </Link>
@@ -42,7 +42,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/desk_organizer_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/organizer_1.jpg" />
                             <CardBody>
-                                <CardTitle>Desk Organizer</CardTitle>
+                                <h6>Desk Organizer</h6>
                                 <CardText>$30.00</CardText>
                             </CardBody>
                         </Link>
@@ -55,7 +55,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/assorted_chopping_block_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/block_1.jpg" />
                             <CardBody>
-                                <CardTitle>Assorted Wood End Grain Chopping Block</CardTitle>
+                                <h6>Assorted Wood End Grain Chopping Block</h6>
                                 <CardText>from $90.00</CardText>
                             </CardBody>
                         </Link>
@@ -65,7 +65,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/walnut_chopping_block_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/block_2.jpg" />
                             <CardBody>
-                                <CardTitle>Walnut + Oak End Grain Chopping Block</CardTitle>
+                                <h6>Walnut + Oak End Grain Chopping Block</h6>
                                 <CardText>from $90.00</CardText>
                             </CardBody>
                         </Link>
@@ -75,7 +75,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/oak_chopping_block_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/block_3.jpg" />
                             <CardBody>
-                                <CardTitle>Oak End Grain Chopping Block</CardTitle>
+                                <h6>Oak End Grain Chopping Block</h6>
                                 <CardText>from $90.00</CardText>
                             </CardBody>
                         </Link>
@@ -88,7 +88,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/measure_twice_tee_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/tee_1_small.png" />
                             <CardBody>
-                                <CardTitle>Measure Twice Cut Once Tee</CardTitle>
+                                <h6>Measure Twice Cut Once Tee</h6>
                                 <CardText>$20.00</CardText>
                             </CardBody>
                         </Link>
@@ -98,7 +98,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/magic_city_tee_grey_navy_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/tee_2.png" />
                             <CardBody>
-                                <CardTitle>Build Magic City Tee <br /> (Heather Grey & Navy)</CardTitle>
+                                <h6>Build Magic City Tee <br /> (Heather Grey & Navy)</h6>
                                 <CardText>$20.00</CardText>
                             </CardBody>
                         </Link>
@@ -108,7 +108,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/classic_tee_oatmeal_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/tee_3_small.png" />
                             <CardBody>
-                                <CardTitle>Classic Tee (Oatmeal)</CardTitle>
+                                <h6>Classic Tee (Oatmeal)</h6>
                                 <CardText>$20.00</CardText>
                             </CardBody>
                         </Link>
@@ -121,7 +121,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/magic_city_tee_grey_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/tee_4_small.png" />
                             <CardBody>
-                                <CardTitle>Build Magic City Tee (Heather Grey)</CardTitle>
+                                <h6>Build Magic City Tee (Heather Grey)</h6>
                                 <CardText>$15.00</CardText>
                             </CardBody>
                         </Link>
@@ -131,7 +131,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/magic_city_tee_navy_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/tee_5_small.png" />
                             <CardBody>
-                                <CardTitle>Build Magic City Tee (Navy)</CardTitle>
+                                <h6>Build Magic City Tee (Navy)</h6>
                                 <CardText>$15.00</CardText>
                             </CardBody>
                         </Link>
@@ -141,7 +141,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/classic_tee_navy_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/tee_6.png" />
                             <CardBody>
-                                <CardTitle>Classic Tee (Navy)</CardTitle>
+                                <h6>Classic Tee (Navy)</h6>
                                 <CardText>$30.00</CardText>
                             </CardBody>
                         </Link>
@@ -156,7 +156,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/sweatshirt_dark_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/sweat_1_small.png" />
                             <CardBody>
-                                <CardTitle>Classic Sweatshirt (Dark Grey)</CardTitle>
+                                <h6>Classic Sweatshirt (Dark Grey)</h6>
                                 <CardText>$40.00</CardText>
                             </CardBody>
                         </Link>
@@ -166,7 +166,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/sweatshirt_light_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/sweat_2.png" />
                             <CardBody>
-                                <CardTitle>Classic Sweatshirt (Light Grey)</CardTitle>
+                                <h6>Classic Sweatshirt (Light Grey)</h6>
                                 <CardText>$40.00</CardText>
                             </CardBody>
                         </Link>
@@ -176,7 +176,7 @@ export default class Shop_Main extends Component {
                         <Link to="/shop_main/patch_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/patch_1_small.jpg" />
                             <CardBody>
-                                <CardTitle>Magic City Woodworks Patch</CardTitle>
+                                <h6>Magic City Woodworks Patch</h6>
                                 <CardText>$30.00</CardText>
                             </CardBody>
                         </Link>
