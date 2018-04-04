@@ -95,7 +95,7 @@ export default class Shop_Main extends Component {
                     </Card>
 
                     <Card className="col-md-3 border-0">
-                        <Link to="/" className="text-dark">
+                        <Link to="/shop_main/magic_city_tee_grey_navy_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/tee_2.png" />
                             <CardBody>
                                 <CardTitle>Build Magic City Tee <br /> (Heather Grey & Navy)</CardTitle>
@@ -105,7 +105,7 @@ export default class Shop_Main extends Component {
                     </Card>
 
                     <Card className="col-md-3 border-0">
-                        <Link to="/" className="text-dark">
+                        <Link to="/shop_main/classic_tee_oatmeal_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/tee_3_small.png" />
                             <CardBody>
                                 <CardTitle>Classic Tee (Oatmeal)</CardTitle>
@@ -118,7 +118,7 @@ export default class Shop_Main extends Component {
                 {/* Row 4 */}
                 <div className="row justify-content-around pt-2">
                     <Card className="col-md-3 border-0 text-left">
-                        <Link to="/" className="text-dark">
+                        <Link to="/shop_main/magic_city_tee_grey_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/tee_4_small.png" />
                             <CardBody>
                                 <CardTitle>Build Magic City Tee (Heather Grey)</CardTitle>
@@ -128,7 +128,7 @@ export default class Shop_Main extends Component {
                     </Card>
 
                     <Card className="col-md-3 border-0">
-                        <Link to="/" className="text-dark">
+                        <Link to="/shop_main/magic_city_tee_navy_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/tee_5_small.png" />
                             <CardBody>
                                 <CardTitle>Build Magic City Tee (Navy)</CardTitle>
@@ -138,7 +138,7 @@ export default class Shop_Main extends Component {
                     </Card>
 
                     <Card className="col-md-3 border-0">
-                        <Link to="/" className="text-dark">
+                        <Link to="/shop_main/classic_tee_navy_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/tee_6.png" />
                             <CardBody>
                                 <CardTitle>Classic Tee (Navy)</CardTitle>
@@ -153,7 +153,7 @@ export default class Shop_Main extends Component {
                 {/* Row 5 */}
                 <div className="row justify-content-around pt-2">
                     <Card className="col-md-3 border-0 text-left">
-                        <Link to="/" className="text-dark">
+                        <Link to="/shop_main/sweatshirt_dark_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/sweat_1_small.png" />
                             <CardBody>
                                 <CardTitle>Classic Sweatshirt (Dark Grey)</CardTitle>
@@ -163,7 +163,7 @@ export default class Shop_Main extends Component {
                     </Card>
 
                     <Card className="col-md-3 border-0">
-                        <Link to="/" className="text-dark">
+                        <Link to="/shop_main/sweatshirt_light_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/sweat_2.png" />
                             <CardBody>
                                 <CardTitle>Classic Sweatshirt (Light Grey)</CardTitle>
@@ -173,7 +173,7 @@ export default class Shop_Main extends Component {
                     </Card>
 
                     <Card className="col-md-3 border-0">
-                        <Link to="/" className="text-dark">
+                        <Link to="/shop_main/patch_sale" className="text-dark">
                             <CardImage className="img-fluid rounded" src="../pics/patch_1_small.jpg" />
                             <CardBody>
                                 <CardTitle>Magic City Woodworks Patch</CardTitle>

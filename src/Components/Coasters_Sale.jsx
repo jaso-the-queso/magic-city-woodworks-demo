@@ -28,7 +28,7 @@ export default class Coasters_Sale extends Component {
               <p>Our handmade assorted wood coasters will be great table protection and an even better talking piece. No two sets are the same and that uniqueness is something we take pride in at Magic City Woodworks. This product was crafted by the Magic City Woodworks crew right here in our home city of Birmingham, AL.</p>
               <p className="py-1">Specs:</p>
               <p className="py-1">- Assorted Wood</p>
-              <p className="py-1">- 4 in X 4 in. X .5 in.</p>
+              <p className="py-1">- 4 in x 4 in. x .5 in.</p>
               <p className="py-1">- Available in sets of 3, 4, and 5 Coasters</p>
               <p className="m-0 pt-3">QUANTITY:</p>
               <input type="number" className="rounded grey lighten-2 border-0 px-3 py-2" /> <br />

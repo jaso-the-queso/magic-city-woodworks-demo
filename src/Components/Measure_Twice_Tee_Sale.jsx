@@ -17,7 +17,7 @@ export default class Measure_Twice_Tee_Sale extends Component {
                         <ul className="list-unstyled col d-inline mt-4 text-right">
                             <Link to="/shop_main/oak_chopping_block_sale" className="d-inline text-dark py-3"> PREVIOUS</Link>
                             <li className="d-inline text-dark"> / </li>
-                            <Link to="/shop_main/" className="d-inline text-dark py-3">NEXT</Link>
+                            <Link to="/shop_main/magic_city_tee_grey_navy_sale" className="d-inline text-dark py-3">NEXT</Link>
                         </ul>
                     </div>
                 </div>

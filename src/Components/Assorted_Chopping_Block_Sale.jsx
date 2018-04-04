@@ -26,11 +26,11 @@ export default class Assorted_Chopping_Block_Sale extends Component {
                     <div className="row">
                         <div className="col-md-5">
                             <h1>Assorted Wood End Grain Chopping Block</h1>
-                            <h3 className="py-4">$90.00</h3>
+                            <h3 className="py-4">from $90.00</h3>
                             <p>Whether you are a culinary professional or a hero in the kitchen at home, this end grain choppin block is perfect for you. Treated with a food-safe mineral oil, this chopping block is ready for some action! This product was crafted by the Magic City Woodworks crew right here in our home city of Birmingham, AL.</p>
                             <p className="py-1">Specs:</p>
-                            <p className="py-1">- Walnut and White Oak</p>
-                            <p className="py-1">- 11 in. x 13 in. x 1.75 in.</p>
+                            <p className="py-1">- Assorted Wood</p>
+                            <p className="py-1">- 10 in. x 11 in. x 1.75 in.</p>
                             <p className="py-1">- Food Safe</p>
                             <p className="m-0 pt-3 grey-text" >SIZE:</p>
                             <select className="rounded grey lighten-2 border-0 pl-2 py-2" disabled>

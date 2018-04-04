@@ -31,7 +31,7 @@ export default class Juice_Groove_Cutting_Board_Sale extends Component {
               <p>Whether you are a culinary professional or a hero in the kitchen at home, this Juice Groove Cutting Board is perfect for you. Treated with a food-safe mineral oil, this chopping block is ready for some action! This product was crafted by the Magic City Woodworks crew right here in our home city of Birmingham, AL.</p>
               <p className="py-1">Specs:</p>
               <p className="py-1">- Assorted Wood (Every Board is Beautifully Different)</p>
-              <p className="py-1">- 12 in X 18 in. X 1.25 in.</p>
+              <p className="py-1">- 12 in x 18 in. x 1.25 in.</p>
               <p className="py-1">- Food Safe</p>
               <p className="m-0 pt-3">QUANTITY:</p>
               <input type="number" className="rounded grey lighten-2 border-0 px-3 py-2" /> <br />

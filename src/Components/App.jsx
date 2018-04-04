@@ -18,7 +18,15 @@ import Desk_Organizer_Sale from "./Desk_Organizer_Sale";
 import Assorted_Chopping_Block_Sale from "./Assorted_Chopping_Block_Sale";
 import Measure_Twice_Tee_Sale from "./Measure_Twice_Tee_Sale";
 import Walnut_Chopping_Block_Sale from "./Walnut_Chopping_Block_Sale";
-import Oak_Chopping_Block_Sale from "./Oak_Chopping_Block_Sale"
+import Oak_Chopping_Block_Sale from "./Oak_Chopping_Block_Sale";
+import Magic_City_Tee_Grey_Navy_Sale from "./Magic_City_Tee_Grey_Navy_Sale";
+import Classic_Tee_Oatmeal_Sale from "./Classic_Tee_Oatmeal_Sale";
+import Magic_City_Tee_Grey_Sale from "./Magic_City_Tee_Grey_Sale";
+import Magic_City_Tee_Navy_Sale from "./Magic_City_Tee_Navy_Sale";
+import Classic_Tee_Navy_Sale from "./Classic_Tee_Navy_Sale";
+import Sweatshirt_Dark_Sale from "./Sweatshirt_Dark_Sale";
+import Sweatshirt_Light_Sale from "./Sweatshirt_Light_Sale";
+import Patch_Sale from "./Patch_Sale";
 
 import Nav from "./Navbar";
 import FooterPage from "./Footer";
@@ -46,7 +54,14 @@ export default class App extends Component {
             <Route exact path="/shop_main/walnut_chopping_block_sale" component={Walnut_Chopping_Block_Sale} />
             <Route exact path="/shop_main/oak_chopping_block_sale" component={Oak_Chopping_Block_Sale} />
             <Route exact path="/shop_main/measure_twice_tee_sale" component={Measure_Twice_Tee_Sale} />
-
+            <Route exact path="/shop_main/magic_city_tee_grey_navy_sale" component={Magic_City_Tee_Grey_Navy_Sale} />
+            <Route exact path="/shop_main/classic_tee_oatmeal_sale" component={Classic_Tee_Oatmeal_Sale} />
+            <Route exact path="/shop_main/magic_city_tee_grey_sale" component={Magic_City_Tee_Grey_Sale} />
+            <Route exact path="/shop_main/magic_city_tee_navy_sale" component={Magic_City_Tee_Navy_Sale} />
+            <Route exact path="/shop_main/classic_tee_navy_sale" component={Classic_Tee_Navy_Sale} />
+            <Route exact path="/shop_main/sweatshirt_dark_sale" component={Sweatshirt_Dark_Sale} />
+            <Route exact path="/shop_main/sweatshirt_light_sale" component={Sweatshirt_Light_Sale} />
+            <Route exact path="/shop_main/patch_sale" component={Patch_Sale} />
 
             {/* <Route exact path="/shop_main/apparel" component={Apparel} />
             <Route exact path="/shop_main/apparel" component={Apparel} /> */}
