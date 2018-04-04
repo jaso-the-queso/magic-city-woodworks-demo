@@ -52,9 +52,35 @@ body {
   width: 300px;
 }
 
+.shop-crop {
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.shop-crop img {
+  height: auto;
+  width: 400px;
+}
+
 .button-text {
   font-size: 5vw;
 }
+
+.video-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 /* .product_carousel img {
   height: 400px;
   max-height: 400px;
