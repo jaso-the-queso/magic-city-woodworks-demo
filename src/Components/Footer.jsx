@@ -44,10 +44,10 @@ export default class FooterPage extends Component {
               <h5 className="title">SOCIAL</h5>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#!">Instagram</a>
+                  <a href="https://www.instagram.com/magiccitywoodworks/?hl=en" target="_blank">Instagram</a>
                 </li>
                 <li>
-                  <a href="#!">Facebook</a>
+                  <a href="https://www.facebook.com/MagicCityWoodworks/" target="_blank">Facebook</a>
                 </li>
               </ul>
             </Col>

@@ -7,7 +7,7 @@ export default class Home extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="container">
+        <div className="container mt-5 pt-4">
           <Carousel />
         </div>
         <div className="container my-4 justify-content-center" id="main">
