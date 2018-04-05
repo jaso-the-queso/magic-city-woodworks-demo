@@ -28,7 +28,7 @@ export default class FooterPage extends Component {
               <h5 className="title">INFO</h5>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#!">Contact</a>
+                  <a href="/contact">Contact</a>
                 </li>
               </ul>
             </Col>

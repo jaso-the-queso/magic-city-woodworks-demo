@@ -35,37 +35,48 @@ export default class NavbarFeatures extends Component {
           {!this.state.isWideEnough && <NavbarToggler onClick={this.onClick} />}
           <Collapse isOpen={this.state.collapse} navbar>
             <NavbarNav left>
-              <NavItem active>
+              <NavItem active className="mx-4">
                 <NavLink to="/">
                   Home
                 </NavLink>
               </NavItem>
-              <NavItem>
+              <NavItem className="mx-4">
                 <NavLink className="nav-link" to="/about">
                   About Us
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink className="nav-link" to="/shop_main">
+              <NavItem className="dropdown mx-4">
+                <NavLink className="nav-link dropbtn" to="/shop_main">
                   Shop
                 </NavLink>
+                <div className="dropdown-content">
+                  <a href="/shop_main">Shop Home</a>
+                  <a href="/shop_main/apparel">Apparel</a>
+                  <a href="/shop_main/cutting_boards">Cutting Boards</a>
+                  <a href="/shop_main/company_gifts">Company Gifts</a>
+                  <a href="/shop_main/custom_work">Custom Work</a>
+                </div>
               </NavItem>
-              <NavItem>
+              <NavItem className="mx-4">
                 <NavLink className="nav-link" to="/cart">
                   Cart
                 </NavLink>
               </NavItem>
-              <NavItem>
+              <NavItem className="mx-4">
                 <NavLink className="nav-link" to="/contact">
                   Contact
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink className="nav-link" to="/gallery">
+              <NavItem className="dropdown mx-4">
+                <NavLink className="nav-link dropbtn" to="/gallery">
                   Gallery
                 </NavLink>
+                <div className="dropdown-content">
+                  <a href="/gallery">Photo Gallery</a>
+                  <a href="/video_gallery">Video Gallery</a>
+                </div>
               </NavItem>
-              <NavItem>
+              <NavItem className="mx-4">
                 <a
                   className="nav-link"
                   href="https://docs.google.com/forms/d/e/1FAIpQLSetHbRlMQQALox7nZpgRa-66Vp8_-_Z9Zy05yxT_aU0W75ZJg/viewform?c=0&w=1"
@@ -74,12 +85,12 @@ export default class NavbarFeatures extends Component {
                   Apply
                </a>
               </NavItem>
-              <NavItem>
+              <NavItem className="mx-4">
                 <NavLink className="nav-link" to="/donate">
                   Donate
                 </NavLink>
               </NavItem>
-              {/* <NavItem>
+              {/* <NavItem className="mx-4">
                 <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                   <DropdownToggle nav caret>Dropdown</DropdownToggle>
                   <DropdownMenu>
@@ -92,7 +103,7 @@ export default class NavbarFeatures extends Component {
               </NavItem> */}
             </NavbarNav>
             <NavbarNav right>
-              <NavItem>
+              <NavItem className="mx-4">
                 <a
                   className="nav-link"
                   rel="noopener noreferrer"
@@ -102,7 +113,7 @@ export default class NavbarFeatures extends Component {
                   <Fa icon="facebook" />
                 </a>
               </NavItem>
-              <NavItem>
+              <NavItem className="mx-4">
                 <a
                   className="nav-link"
                   rel="noopener noreferrer"
