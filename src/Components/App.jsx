@@ -13,6 +13,7 @@ import Apparel from "./Apparel";
 import Cutting_Boards from "./Cutting_Boards";
 import Company_Gifts from "./Company_Gifts";
 import Custom_Work from "./Custom_Work";
+import Cart from "./Cart";
 
 import Coasters_Sale from "./Coasters_Sale";
 import Juice_Groove_Cutting_Board_Sale from "./Juice_Groove_Cutting_Board_Sale";
@@ -52,6 +53,7 @@ export default class App extends Component {
             <Route exact path="/shop_main/cutting_boards" component={Cutting_Boards} />
             <Route exact path="/shop_main/company_gifts" component={Company_Gifts} />
             <Route exact path="/shop_main/custom_work" component={Custom_Work} />
+            <Route exact path="/cart" component={Cart} />
 
             <Route exact path="/shop_main/coasters_sale" component={Coasters_Sale} />
             <Route exact path="/shop_main/juice_groove_cutting_board_sale" component={Juice_Groove_Cutting_Board_Sale} />
