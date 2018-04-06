@@ -7,7 +7,7 @@ export default class About extends Component {
         return (
             <div className="container mt-5 pt-5 align-items-center">
                 <div className="row justify-content-start">
-                    <h3 className="mt-4">SHOPPING CART</h3>
+                    <h3 className="mt-4 font-weight-bold">SHOPPING CART</h3>
                 </div>
 
                 <div className="row align-items-end pt-2">

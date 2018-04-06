@@ -7,14 +7,14 @@ import OtherCar from "./Other_Car";
 export default class Gallery extends Component {
   render() {
     return (
-      <Fragment id="wrap">
-        <div className="container my-2 justify-content-center" id="main">
-          <div className="row main pt-5 ">
+      <div>
+        <div className="container mt-5 pt-5 justify-content-center" id="main">
+          <div className="row main mt-4 ">
             <div className="col-md-3">
               <p className="invisible">.</p>
             </div>
             <div className="col-md-6 text-center">
-              <h1 className="font-weight-bold mt-5">Photo Gallery</h1>
+              <h1 className="font-weight-bold">Photo Gallery</h1>
             </div>
             <div className="col-md-3">
               <p className="invisible">.</p>
@@ -116,7 +116,7 @@ export default class Gallery extends Component {
             </div>
           </div>
         </div>
-      </Fragment>
+      </div>
     );
   }
 }

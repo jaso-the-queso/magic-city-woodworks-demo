@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { Button } from "mdbreact";
+import { Button, Fa } from "mdbreact";
 import ImageCard from "./ImageCard";
 import Carousel from "./Carousel.jsx";
 
 export default class Home extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container">
         <div className="container mt-5 pt-4">
           <Carousel />
         </div>
@@ -19,13 +19,16 @@ export default class Home extends Component {
               <h4 className="font-weight-bold py-4">
                 WE TEACH YOUNG MEN THE ART OF WORK
               </h4>
-              <Button outline color="elegant mb-4">
-                LEARN MORE
-              </Button>
+              <a href="/about">
+                <Button outline color="elegant mb-4">
+                  LEARN MORE
+                </Button>
+              </a>
             </div>
             <div className="col-md-3">
               <p className="invisible">.</p>
             </div>
+
             <div className="container mt-4">
               <div className="row">
                 <div className="col-3">
@@ -58,6 +61,19 @@ export default class Home extends Component {
                   />
                 </div>
               </div>
+            </div>
+            <div className="col-md-3">
+              <p className="invisible">.</p>
+            </div>
+            <div className="col-md-6 border-bottom text-center">
+              <a href="https://www.instagram.com/magiccitywoodworks/?hl=en" target="_blank">
+                <Button outline color="elegant mb-4 py-4">
+                  <Fa icon="instagram" className="mx-3" /> FOLLOW @magiccitywoodworks <Fa icon="instagram" className="mx-3" />
+                </Button>
+              </a>
+            </div>
+            <div className="col-md-3">
+              <p className="invisible">.</p>
             </div>
           </div>
         </div>

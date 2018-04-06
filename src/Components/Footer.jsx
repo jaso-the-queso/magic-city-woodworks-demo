@@ -69,8 +69,7 @@ export default class FooterPage extends Component {
         </Container>
         <div className="footer-copyright text-center">
           <Container fluid>
-            &copy; {new Date().getFullYear()} Copyright:{" "}
-            <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+            <p> Made by Dank Maestro LLC. </p>
           </Container>
         </div>
       </Footer>

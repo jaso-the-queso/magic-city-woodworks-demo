@@ -8,13 +8,13 @@ export default class Map extends Component {
   };
   render() {
     return (
-      <div className="container">
-        <div className="row main pt-5 mt-5">
+      <div className="container mt-5 pt-5">
+        <div className="row main mt-4">
           <div className="col-md-3">
             <p className="invisible">.</p>
           </div>
           <div className="col-md-6 border-bottom text-center">
-            <h1 className="mb-3 mt-4">Our Shop</h1>
+            <h1 className="mb-3 font-weight-bold">Our Shop</h1>
           </div>
           <div className="col-md-3">
             <p className="invisible">.</p>

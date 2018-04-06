@@ -1,23 +1,25 @@
 import React, { Component, Fragment } from "react";
 
+import Doughnut from "./Doughnut";
+
 export default class About extends Component {
   render() {
     return (
       <Fragment id="wrap">
-        <div className="container my-5 justify-content-center" id="main">
-          <div className="row main pt-5">
-            <div className="col-md-3">
-              <p className="invisible">.</p>
-            </div>
-            <div className="col-md-3">
-              <p className="invisible">.</p>
+        <div className="container mt-5 pt-5" id="main">
+          <div className="row main mt-4 justify-content-center">
+            <div className="col-md-8">
+              <h2 className="text-center border-bottom pb-4 font-weight-bold">WHO ARE WE?</h2>
             </div>
           </div>
-          <div className="row main pt-5">
-            <div className="col-md-3">
-              <p className="invisible">.</p>
+          <div className="row main mt-4 justify-content-center">
+            <div className="col-md-8">
+              <Doughnut />              
             </div>
-            <div className="col-md-6 border-top border-bottom text-center">
+          </div>
+
+          <div className="row main pt-5 justify-content-center">
+            <div className="col-md-8 border-top border-bottom text-center">
               <h5 className="font-weight-bold py-4">
                 WE ARE A SOCIAL IMPACT COMPANY DESIGNED TO HELP YOUNG MEN BRIDGE
                 THE INTIMIDATING GAP BETWEEN UNEMPLOYMENT AND MEANINGFUL
@@ -41,9 +43,7 @@ export default class About extends Component {
                 <br />
               </h5>
             </div>
-            <div className="col-md-3">
-              <p className="invisible">.</p>
-            </div>
+
           </div>
           <div className="row main">
             <div className="col-md-3">

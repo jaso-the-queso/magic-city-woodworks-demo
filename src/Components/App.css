@@ -121,3 +121,21 @@ body {
   height: 400px;
   max-height: 400px;
 } */
+
+@font-face {
+  font-family: Yantramanav-Light;
+  src: url('../fonts/Yantramanav/Yantramanav-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Yantramanav-Bold;
+  src: url('../fonts/Yantramanav/Yantramanav-Bold.ttf') format('truetype');
+}
+
+p, div, btn, Link, li {
+  font-family: 'Yantramanav-Light';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yantramanav-Bold';
+}

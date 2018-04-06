@@ -5,8 +5,19 @@ export default class Donate extends Component {
   render() {
     return (
       <Fragment>
-        <div className="container my-5 justify-content-center" id="main">
-          <div className="row main pt-5">
+        <div className="container mt-5 pt-5 justify-content-center" id="main">
+          <div className="row main mt-4">
+            <div className="col-md-3">
+              <p className="invisible">.</p>
+            </div>
+            <div className="col-md-6 text-center">
+              <h1 className="font-weight-bold">Donate</h1>
+            </div>
+            <div className="col-md-3">
+              <p className="invisible">.</p>
+            </div>
+          </div>
+          <div className="row main pt-3">
             <div className="col-md-3">
               <p className="invisible">.</p>
             </div>
@@ -116,7 +127,7 @@ export default class Donate extends Component {
               <p className="invisible">.</p>
             </div>
           </div>
-          
+
           <div className="row main">
             <div className="col-md-3">
               <p className="invisible">.</p>
