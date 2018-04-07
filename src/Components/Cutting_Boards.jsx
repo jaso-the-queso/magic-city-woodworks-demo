@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Button, Card, CardBody, CardImage, CardText } from 'mdbreact';
+import { Card, CardBody, CardImage, CardText } from 'mdbreact';
 
 export default class Cutting_Boards extends Component {
 
@@ -20,7 +20,7 @@ export default class Cutting_Boards extends Component {
                 <div className="row justify-content-around pt-2">
                     <Card className="col-md-3 border-0 text-left">
                         <Link to="/shop_main/assorted_chopping_block_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/block_1.jpg" />
+                            <CardImage className="img-fluid rounded" src="../pics/block_1.jpg" alt="Assorted Wood End Grain Chopping Block" />
                             <CardBody>
                                 <h6>Assorted Wood End Grain Chopping Block</h6>
                                 <CardText>from $90.00</CardText>
@@ -30,7 +30,7 @@ export default class Cutting_Boards extends Component {
 
                     <Card className="col-md-3 border-0">
                         <Link to="/shop_main/walnut_chopping_block_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/block_2.jpg" />
+                            <CardImage className="img-fluid rounded" src="../pics/block_2.jpg" alt="Walnut + Oak End Grain Chopping Block" />
                             <CardBody>
                                 <h6>Walnut + Oak End Grain Chopping Block</h6>
                                 <CardText>from $90.00</CardText>
@@ -40,7 +40,7 @@ export default class Cutting_Boards extends Component {
 
                     <Card className="col-md-3 border-0">
                         <Link to="/shop_main/oak_chopping_block_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/block_3.jpg" />
+                            <CardImage className="img-fluid rounded" src="../pics/block_3.jpg" alt="Oak End Grain Chopping Block" />
                             <CardBody>
                                 <h6>Oak End Grain Chopping Block</h6>
                                 <CardText>from $90.00</CardText>

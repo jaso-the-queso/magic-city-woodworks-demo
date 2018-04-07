@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Button, Card, CardBody, CardImage, CardText } from 'mdbreact';
+import { Card, CardBody, CardImage, CardText } from 'mdbreact';
 
 export default class Shop_Main extends Component {
 
@@ -20,7 +20,7 @@ export default class Shop_Main extends Component {
                 <div className="row justify-content-around pt-2">
                     <Card className="col-md-3 border-0 text-left">
                         <Link to="/shop_main/coasters_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/small_3.jpg" />
+                            <CardImage className="img-fluid rounded" src="../pics/small_3.jpg" alt="Wooden Coasters" />
                             <CardBody>
                                 <h6>Wooden Coasters</h6>
                                 <CardText>$20.00</CardText>
@@ -30,7 +30,7 @@ export default class Shop_Main extends Component {
 
                     <Card className="col-md-3 border-0">
                         <Link to="/shop_main/juice_groove_cutting_board_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/groove_1.jpg" />
+                            <CardImage className="img-fluid rounded" src="../pics/groove_1.jpg" alt="Juice Groove Cutting Board" />
                             <CardBody>
                                 <h6>Juice Groove Cutting Board</h6>
                                 <CardText>$70.00</CardText>
@@ -40,7 +40,7 @@ export default class Shop_Main extends Component {
 
                     <Card className="col-md-3 border-0">
                         <Link to="/shop_main/desk_organizer_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/organizer_1.jpg" />
+                            <CardImage className="img-fluid rounded" src="../pics/organizer_1.jpg" alt="Desk Organizer" />
                             <CardBody>
                                 <h6>Desk Organizer</h6>
                                 <CardText>$30.00</CardText>
@@ -53,7 +53,7 @@ export default class Shop_Main extends Component {
                 <div className="row justify-content-around pt-2">
                     <Card className="col-md-3 border-0 text-left">
                         <Link to="/shop_main/assorted_chopping_block_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/block_1.jpg" />
+                            <CardImage className="img-fluid rounded" src="../pics/block_1.jpg" alt="Assorted Wood Chopping Block" />
                             <CardBody>
                                 <h6>Assorted Wood End Grain Chopping Block</h6>
                                 <CardText>from $90.00</CardText>
@@ -63,7 +63,7 @@ export default class Shop_Main extends Component {
 
                     <Card className="col-md-3 border-0">
                         <Link to="/shop_main/walnut_chopping_block_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/block_2.jpg" />
+                            <CardImage className="img-fluid rounded" src="../pics/block_2.jpg" alt="Walnut Chopping Block" />
                             <CardBody>
                                 <h6>Walnut + Oak End Grain Chopping Block</h6>
                                 <CardText>from $90.00</CardText>
@@ -73,7 +73,7 @@ export default class Shop_Main extends Component {
 
                     <Card className="col-md-3 border-0">
                         <Link to="/shop_main/oak_chopping_block_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/block_3.jpg" />
+                            <CardImage className="img-fluid rounded" src="../pics/block_3.jpg" alt="Oak Chopping Block" />
                             <CardBody>
                                 <h6>Oak End Grain Chopping Block</h6>
                                 <CardText>from $90.00</CardText>
@@ -86,7 +86,7 @@ export default class Shop_Main extends Component {
                 <div className="row justify-content-around pt-2">
                     <Card className="col-md-3 border-0 text-left">
                         <Link to="/shop_main/measure_twice_tee_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/tee_1_small.png" />
+                            <CardImage className="img-fluid rounded" src="../pics/tee_1_small.png" alt="Measure Twice Cut Once Tee" />
                             <CardBody>
                                 <h6>Measure Twice Cut Once Tee</h6>
                                 <CardText>$20.00</CardText>
@@ -96,7 +96,7 @@ export default class Shop_Main extends Component {
 
                     <Card className="col-md-3 border-0">
                         <Link to="/shop_main/magic_city_tee_grey_navy_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/tee_2.png" />
+                            <CardImage className="img-fluid rounded" src="../pics/tee_2.png" alt="Magic City Tee Grey and Navy" />
                             <CardBody>
                                 <h6>Build Magic City Tee <br /> (Heather Grey & Navy)</h6>
                                 <CardText>$20.00</CardText>
@@ -106,7 +106,7 @@ export default class Shop_Main extends Component {
 
                     <Card className="col-md-3 border-0">
                         <Link to="/shop_main/classic_tee_oatmeal_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/tee_3_small.png" />
+                            <CardImage className="img-fluid rounded" src="../pics/tee_3_small.png" alt="Classic Tee Oatmeal" />
                             <CardBody>
                                 <h6>Classic Tee (Oatmeal)</h6>
                                 <CardText>$20.00</CardText>
@@ -119,7 +119,7 @@ export default class Shop_Main extends Component {
                 <div className="row justify-content-around pt-2">
                     <Card className="col-md-3 border-0 text-left">
                         <Link to="/shop_main/magic_city_tee_grey_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/tee_4_small.png" />
+                            <CardImage className="img-fluid rounded" src="../pics/tee_4_small.png" alt="Magic City Tee Grey" />
                             <CardBody>
                                 <h6>Build Magic City Tee (Heather Grey)</h6>
                                 <CardText>$15.00</CardText>
@@ -129,7 +129,7 @@ export default class Shop_Main extends Component {
 
                     <Card className="col-md-3 border-0">
                         <Link to="/shop_main/magic_city_tee_navy_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/tee_5_small.png" />
+                            <CardImage className="img-fluid rounded" src="../pics/tee_5_small.png" alt="Magic City Tee Navy" />
                             <CardBody>
                                 <h6>Build Magic City Tee (Navy)</h6>
                                 <CardText>$15.00</CardText>
@@ -139,7 +139,7 @@ export default class Shop_Main extends Component {
 
                     <Card className="col-md-3 border-0">
                         <Link to="/shop_main/classic_tee_navy_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/tee_6.png" />
+                            <CardImage className="img-fluid rounded" src="../pics/tee_6.png" alt="Classic Tee Navy" />
                             <CardBody>
                                 <h6>Classic Tee (Navy)</h6>
                                 <CardText>$30.00</CardText>
@@ -154,7 +154,7 @@ export default class Shop_Main extends Component {
                 <div className="row justify-content-around pt-2">
                     <Card className="col-md-3 border-0 text-left">
                         <Link to="/shop_main/sweatshirt_dark_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/sweat_1_small.png" />
+                            <CardImage className="img-fluid rounded" src="../pics/sweat_1_small.png" alt="Sweatshirt Dark Grey" />
                             <CardBody>
                                 <h6>Classic Sweatshirt (Dark Grey)</h6>
                                 <CardText>$40.00</CardText>
@@ -164,7 +164,7 @@ export default class Shop_Main extends Component {
 
                     <Card className="col-md-3 border-0">
                         <Link to="/shop_main/sweatshirt_light_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/sweat_2.png" />
+                            <CardImage className="img-fluid rounded" src="../pics/sweat_2.png" alt="Sweatshirt Light Grey" />
                             <CardBody>
                                 <h6>Classic Sweatshirt (Light Grey)</h6>
                                 <CardText>$40.00</CardText>
@@ -174,7 +174,7 @@ export default class Shop_Main extends Component {
 
                     <Card className="col-md-3 border-0">
                         <Link to="/shop_main/patch_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/patch_1_small.jpg" />
+                            <CardImage className="img-fluid rounded" src="../pics/patch_1_small.jpg" alt="Magic City Woodworks Patch" />
                             <CardBody>
                                 <h6>Magic City Woodworks Patch</h6>
                                 <CardText>$30.00</CardText>

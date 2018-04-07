@@ -48,7 +48,7 @@ export default class Magic_City_Tee_Grey_Navy_Sale extends Component {
                         </div>
 
                         <div className="col-md-7">
-                            <img src="../pics/grey_navy_tee_1_big.png" className="img-fluid rounded mb-2" alt="" />
+                            <img src="../pics/grey_navy_tee_1_big.png" className="img-fluid rounded mb-2" alt="Magic City Tee Grey and Navy" />
                         </div>
                     </div>
                 </div>

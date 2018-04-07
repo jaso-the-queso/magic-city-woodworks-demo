@@ -1,5 +1,4 @@
-import React, { Component, Fragment } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from "react";
 import { Button } from "mdbreact";
 
 export default class About extends Component {
@@ -18,7 +17,7 @@ export default class About extends Component {
 
                 <div className="row border-bottom border-top align-items-center pt-5 pb-5">
                     <p className="col-1 text-uppercase">x</p>
-                    <img src="../pics/coaster_1_thumb.jpg" width="100" height="66" className="img-fluid col-2 align-self-center rounded" />
+                    <img src="../pics/coaster_1_thumb.jpg" alt="Wooden Coasters" width="100" height="66" className="img-fluid col-2 align-self-center rounded" />
                     <div className="col-5">
                         <div className="row">
                             <p className="font-weight-bold">Wooden Coasters</p> 
@@ -33,7 +32,7 @@ export default class About extends Component {
 
                 <div className="row border-bottom align-items-center pt-5 pb-5">
                     <p className="col-1 text-uppercase">x</p>
-                    <img src="../pics/groove_1_thumb.jpg" width="100" height="66" className="img-fluid col-2 align-self-center rounded" />
+                    <img src="../pics/groove_1_thumb.jpg" alt="Juice Groove Cutting Board" width="100" height="66" className="img-fluid col-2 align-self-center rounded" />
                     <div className="col-5">
                         <div className="row">
                             <p className="font-weight-bold">Juice Groove Cutting Board</p> 
@@ -48,7 +47,7 @@ export default class About extends Component {
 
                 <div className="row border-bottom align-items-center pt-5 pb-5">
                     <p className="col-1 text-uppercase">x</p>
-                    <img src="../pics/organizer_1_thumb.jpg" width="100" height="66" className="img-fluid col-2 align-self-center rounded" />
+                    <img src="../pics/organizer_1_thumb.jpg" alt="Desk Organizer" width="100" height="66" className="img-fluid col-2 align-self-center rounded" />
                     <div className="col-5">
                         <div className="row">
                             <p className="font-weight-bold">Desk Organizer</p> 

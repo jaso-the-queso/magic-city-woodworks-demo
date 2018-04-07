@@ -25,7 +25,7 @@ export default class Company_Gifts extends Component {
                     <Card className="col-md-3 border-0 text-left">
                         <p>1. BUY COASTERS</p>
                         <Link to="/shop_main/coasters_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/small_3.jpg" />
+                            <CardImage className="img-fluid rounded" src="../pics/small_3.jpg" alt="Wooden Coasters" />
                             <CardBody>
                                 <h6>Wooden Coasters</h6>
                                 <CardText>$20.00</CardText>
@@ -36,7 +36,7 @@ export default class Company_Gifts extends Component {
                     <Card className="col-md-3 border-0">
                         <p>2. BUY DESK ORG.</p>
                         <Link to="/shop_main/desk_organizer_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/organizer_1.jpg" />
+                            <CardImage className="img-fluid rounded" src="../pics/organizer_1.jpg" alt="Desk Organizer" />
                             <CardBody>
                                 <h6>Desk Organizer</h6>
                                 <CardText>$30.00</CardText>
@@ -47,7 +47,7 @@ export default class Company_Gifts extends Component {
                     <Card className="col-md-3 border-0">
                         <p>3. BUY CUTTING BOARDS</p>
                         <Link to="/shop_main/juice_groove_cutting_board_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/groove_1.jpg" />
+                            <CardImage className="img-fluid rounded" src="../pics/groove_1.jpg" alt="Juice Groove Cutting Board" />
                             <CardBody>
                                 <h6>Juice Groove Cutting Board</h6>
                                 <CardText>$70.00</CardText>
@@ -64,7 +64,7 @@ export default class Company_Gifts extends Component {
                     </Link>
 
                     <h3 className="mt-4">"THE MOST MEANINGFUL GIFT WE'VE EVER GIVEN"</h3>
-                    <img src="../pics/peter_greer.jpg" className="mt-3" />
+                    <img src="../pics/peter_greer.jpg" alt="Peter Greer" className="mt-3" />
                     <blockquote className="text-left font-italic mt-4">“We are thrilled with the cutting boards we purchased from Magic City Woodworks! We presented them as gifts to several organizational leaders, staff members, and interns—and based on the feedback, it was the most meaningful gift we’ve ever given. Truly, a remarkable gift from a company with a remarkable mission.”</blockquote>
                     <h5 className="text-left font-italic">- Peter Greer</h5>
                     <h6 className="text-left font-italic">CEO of HOPE International</h6>

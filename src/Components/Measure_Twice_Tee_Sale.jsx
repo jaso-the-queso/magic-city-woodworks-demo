@@ -48,8 +48,8 @@ export default class Measure_Twice_Tee_Sale extends Component {
                         </div>
 
                         <div className="col-md-7">
-                            <img src="../pics/measure_twice_1_big.png" className="img-fluid rounded mb-2" alt="" />
-                            <img src="../pics/measure_twice_2_big.png" className="img-fluid rounded mb-2" alt="" />
+                            <img src="../pics/measure_twice_1_big.png" className="img-fluid rounded mb-2" alt="Measure Twice Cut Once Tee" />
+                            <img src="../pics/measure_twice_2_big.png" className="img-fluid rounded mb-2" alt="Measure Twice Cut Once Tee" />
                         </div>
                     </div>
                 </div>

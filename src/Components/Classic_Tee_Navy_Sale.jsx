@@ -49,9 +49,9 @@ export default class Classic_Tee_Navy_Sale extends Component {
                         </div>
 
                         <div className="col-md-7">
-                            <img src="../pics/classic_navy_tee_1_big.png" className="img-fluid rounded mb-2" alt="" />
-                            <img src="../pics/classic_navy_tee_2_big.png" className="img-fluid rounded mb-2" alt="" />
-                            <img src="../pics/classic_navy_tee_3_big.png" className="img-fluid rounded mb-2" alt="" />
+                            <img src="../pics/classic_navy_tee_1_big.png" className="img-fluid rounded mb-2" alt="Classic Tee Navy" />
+                            <img src="../pics/classic_navy_tee_2_big.png" className="img-fluid rounded mb-2" alt="Classic Tee Navy" />
+                            <img src="../pics/classic_navy_tee_3_big.png" className="img-fluid rounded mb-2" alt="Classic Tee Navy" />
                         </div>
                     </div>
                 </div>

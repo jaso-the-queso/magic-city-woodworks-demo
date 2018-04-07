@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 
 import TablesCar from "./Tables_Car";
 import EdgeCar from "./Edge_Car";

@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import { Input, Button, Fa } from "mdbreact";
 
@@ -105,7 +105,7 @@ export default class Custom_Work extends Component {
                                 <option value="39">39</option>
                                 <option value="40">40</option>
                             </select> <br />
-                            <img className="img-fluid rounded mb-3" src="../pics/stain.png" />
+                            <img className="img-fluid rounded mb-3" src="../pics/stain.png" alt="Stain Choices" />
 
                             <p className="m-0 font-weight-bold">Base:</p>
                             <div class="custom-control custom-radio">

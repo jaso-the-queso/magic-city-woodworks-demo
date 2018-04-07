@@ -37,16 +37,16 @@ export default class Coasters_Sale extends Component {
               <Fa icon="twitter" className="my-4 mr-4" />              
               <Fa icon="linkedin" className="my-4 mr-4" /> <br />
               <div className="video-responsive">
-                <iframe src="https://player.vimeo.com/video/166422973" className="rounded" width="450" height="253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/166422973" title="Magic City Woodworks" className="rounded" width="450" height="253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
               </div>
             </div>
 
             <div className="col-md-7">
-            <img src="../pics/coaster_1_big.jpg" className="img-fluid rounded mb-2" alt="" />
-            <img src="../pics/coaster_2_big.jpg" className="img-fluid rounded mb-2" alt="" />
-            <img src="../pics/coaster_3_big.jpg" className="img-fluid rounded mb-2" alt="" />
-            <img src="../pics/coaster_4_big.jpg" className="img-fluid rounded mb-2" alt="" />
-            <img src="../pics/coaster_5_big.jpg" className="img-fluid rounded mb-2" alt="" />
+            <img src="../pics/coaster_1_big.jpg" className="img-fluid rounded mb-2" alt="Wooden Coasters" />
+            <img src="../pics/coaster_2_big.jpg" className="img-fluid rounded mb-2" alt="Wooden Coasters" />
+            <img src="../pics/coaster_3_big.jpg" className="img-fluid rounded mb-2" alt="Wooden Coasters" />
+            <img src="../pics/coaster_4_big.jpg" className="img-fluid rounded mb-2" alt="Wooden Coasters" />
+            <img src="../pics/coaster_5_big.jpg" className="img-fluid rounded mb-2" alt="Wooden Coasters" />
 
             </div>
           </div>

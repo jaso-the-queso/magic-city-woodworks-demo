@@ -58,7 +58,7 @@ export default class About extends Component {
               <img
                 className="mb-5"
                 src="../pics/worker.jpg"
-                alt="Sorry Not Found"
+                alt="Magic City Woodworks Worker"
               />
             </div>
             <div className="col-md-3">

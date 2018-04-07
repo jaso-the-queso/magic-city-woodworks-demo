@@ -67,13 +67,13 @@ export default class Car extends Component {
           </CarouselItem>
           <CarouselItem itemId="4">
             <div className="view hm-black-light">
-              <img className="d-block w-100" src="../pics/car-4.png" alt="Fourth item" />
+              <img className="d-block w-100" src="../pics/car-4.png" alt="Fourth slide" />
               <div className="mask"></div>
             </div>
           </CarouselItem>
           <CarouselItem itemId="5">
             <div className="view hm-black-light">
-              <img className="d-block w-100" src="../pics/car-5.png" alt="Fifth item" />
+              <img className="d-block w-100" src="../pics/car-5.png" alt="Fifth slide" />
               <div className="mask"></div>
             </div>
           </CarouselItem>

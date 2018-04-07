@@ -44,13 +44,13 @@ export default class Juice_Groove_Cutting_Board_Sale extends Component {
 
             <div className="col-md-7">
             <img src="../pics/groove_1.jpg" className="img-fluid rounded mb-2" alt="" />
-            <img src="../pics/groove_2_big.jpg" className="img-fluid rounded mb-2" alt="" />
-            <img src="../pics/groove_3_big.jpg" className="img-fluid rounded mb-2" alt="" />
-            <img src="../pics/groove_4_big.jpg" className="img-fluid rounded mb-2" alt="" />
-            <img src="../pics/groove_5_big.jpg" className="img-fluid rounded mb-2" alt="" />
-            <img src="../pics/groove_6_big.jpg" className="img-fluid rounded mb-2" alt="" />
-            <img src="../pics/groove_7_big.jpg" className="img-fluid rounded mb-2" alt="" />
-            <img src="../pics/groove_8_big.jpg" className="img-fluid rounded mb-2" alt="" />
+            <img src="../pics/groove_2_big.jpg" className="img-fluid rounded mb-2" alt="Juice Groove Cutting Board" />
+            <img src="../pics/groove_3_big.jpg" className="img-fluid rounded mb-2" alt="Juice Groove Cutting Board" />
+            <img src="../pics/groove_4_big.jpg" className="img-fluid rounded mb-2" alt="Juice Groove Cutting Board" />
+            <img src="../pics/groove_5_big.jpg" className="img-fluid rounded mb-2" alt="Juice Groove Cutting Board" />
+            <img src="../pics/groove_6_big.jpg" className="img-fluid rounded mb-2" alt="Juice Groove Cutting Board" />
+            <img src="../pics/groove_7_big.jpg" className="img-fluid rounded mb-2" alt="Juice Groove Cutting Board" />
+            <img src="../pics/groove_8_big.jpg" className="img-fluid rounded mb-2" alt="Juice Groove Cutting Board" />
 
             </div>
           </div>

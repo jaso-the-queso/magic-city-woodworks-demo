@@ -66,7 +66,7 @@ export default class Home extends Component {
               <p className="invisible">.</p>
             </div>
             <div className="col-md-6 border-bottom text-center">
-              <a href="https://www.instagram.com/magiccitywoodworks/?hl=en" target="_blank">
+              <a href="https://www.instagram.com/magiccitywoodworks/?hl=en" target="_blank" rel="noopener noreferrer">
                 <Button outline color="elegant mb-4 py-4">
                   <Fa icon="instagram" className="mx-3" /> FOLLOW @magiccitywoodworks <Fa icon="instagram" className="mx-3" />
                 </Button>

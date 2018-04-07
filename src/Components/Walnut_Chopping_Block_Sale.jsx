@@ -46,8 +46,8 @@ export default class Walnut_Chopping_Block_Sale extends Component {
                             <Fa icon="linkedin" className="my-4 mr-4" /> <br />
                         </div>
                         <div className="col-md-7">
-                            <img src="../pics/walnut_block_1_big.jpg" className="img-fluid rounded mb-2" alt="" />
-                            <img src="../pics/walnut_block_2_big.jpg" className="img-fluid rounded mb-2" alt="" />
+                            <img src="../pics/walnut_block_1_big.jpg" className="img-fluid rounded mb-2" alt="Walnut Chopping Block" />
+                            <img src="../pics/walnut_block_2_big.jpg" className="img-fluid rounded mb-2" alt="Walnut Chopping Block" />
                         </div>
                     </div>
                 </div>

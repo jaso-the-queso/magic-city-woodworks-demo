@@ -38,13 +38,13 @@ export default class Desk_Organizer_Sale extends Component {
               <Fa icon="twitter" className="my-4 mr-4" />              
               <Fa icon="linkedin" className="my-4 mr-4" /> <br />
               <div className="video-responsive">
-                <iframe src="https://player.vimeo.com/video/183574523" className="rounded" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>              </div>
+                <iframe src="https://player.vimeo.com/video/183574523" title="Magic City Woodworks" className="rounded" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>              </div>
               </div>
 
             <div className="col-md-7">
-            <img src="../pics/organizer_1_big.jpg" className="img-fluid rounded mb-2" alt="" />
-            <img src="../pics/organizer_2_big.jpg" className="img-fluid rounded mb-2" alt="" />
-            <img src="../pics/organizer_3_big.jpg" className="img-fluid rounded mb-2" alt="" />
+            <img src="../pics/organizer_1_big.jpg" className="img-fluid rounded mb-2" alt="Desk Organizer" />
+            <img src="../pics/organizer_2_big.jpg" className="img-fluid rounded mb-2" alt="Desk Organizer" />
+            <img src="../pics/organizer_3_big.jpg" className="img-fluid rounded mb-2" alt="Desk Organizer" />
             </div>
           </div>
         </div>

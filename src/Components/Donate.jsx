@@ -48,7 +48,7 @@ export default class Donate extends Component {
                   <img
                     src="../pics/donate_logo.png"
                     className="col-md- py-3 pl-3 rounded"
-                    alt="donate-logo"
+                    alt="Donate Logo"
                   />
                   <div className="col py-3">
                     <p>Your donation</p>

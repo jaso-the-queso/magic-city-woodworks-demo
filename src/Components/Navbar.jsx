@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Fa } from 'mdbreact';
+import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Fa } from 'mdbreact';
 
 export default class NavbarFeatures extends Component {
   constructor(props) {
@@ -81,6 +81,7 @@ export default class NavbarFeatures extends Component {
                   className="nav-link"
                   href="https://docs.google.com/forms/d/e/1FAIpQLSetHbRlMQQALox7nZpgRa-66Vp8_-_Z9Zy05yxT_aU0W75ZJg/viewform?c=0&w=1"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Apply
                </a>

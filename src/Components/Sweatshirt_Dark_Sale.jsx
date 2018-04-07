@@ -46,10 +46,10 @@ export default class Sweatshirt_Dark_Sale extends Component {
                             <Fa icon="linkedin" className="my-4 mr-4" /> <br />
                         </div>
                         <div className="col-md-7">
-                            <img src="../pics/sweatshirt_dark_1_big.png" className="img-fluid rounded mb-2" alt="" />
-                            <img src="../pics/sweatshirt_dark_2_big.png" className="img-fluid rounded mb-2" alt="" />
-                            <img src="../pics/sweatshirt_dark_3_big.png" className="img-fluid rounded mb-2" alt="" />
-                            <img src="../pics/sweatshirt_dark_4_big.png" className="img-fluid rounded mb-2" alt="" />
+                            <img src="../pics/sweatshirt_dark_1_big.png" className="img-fluid rounded mb-2" alt="Sweatshirt Dark Grey" />
+                            <img src="../pics/sweatshirt_dark_2_big.png" className="img-fluid rounded mb-2" alt="Sweatshirt Dark Grey" />
+                            <img src="../pics/sweatshirt_dark_3_big.png" className="img-fluid rounded mb-2" alt="Sweatshirt Dark Grey" />
+                            <img src="../pics/sweatshirt_dark_4_big.png" className="img-fluid rounded mb-2" alt="Sweatshirt Dark Grey" />
                         </div>
                     </div>
                 </div>
