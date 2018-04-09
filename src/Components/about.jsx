@@ -9,12 +9,14 @@ export default class About extends Component {
         <div className="container mt-5 pt-5" id="main">
           <div className="row main mt-4 justify-content-center">
             <div className="col-md-8">
-              <h2 className="text-center border-bottom pb-4 font-weight-bold">WHO ARE WE?</h2>
+              <h2 className="text-center border-bottom pb-4 font-weight-bold">
+                WHO ARE WE?
+              </h2>
             </div>
           </div>
           <div className="row main mt-4 justify-content-center">
             <div className="col-md-8">
-              <Doughnut />              
+              <Doughnut />
             </div>
           </div>
 
@@ -43,7 +45,6 @@ export default class About extends Component {
                 <br />
               </h5>
             </div>
-
           </div>
           <div className="row main">
             <div className="col-md-3">

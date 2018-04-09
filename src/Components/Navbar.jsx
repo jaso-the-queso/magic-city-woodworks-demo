@@ -1,5 +1,14 @@
-import React, { Component } from 'react';
-import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Fa } from 'mdbreact';
+import React, { Component } from "react";
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarNav,
+  NavbarToggler,
+  Collapse,
+  NavItem,
+  NavLink,
+  Fa
+} from "mdbreact";
 
 export default class NavbarFeatures extends Component {
   constructor(props) {
@@ -15,7 +24,7 @@ export default class NavbarFeatures extends Component {
 
   onClick() {
     this.setState({
-      collapse: !this.state.collapse,
+      collapse: !this.state.collapse
     });
   }
 
@@ -35,10 +44,8 @@ export default class NavbarFeatures extends Component {
           {!this.state.isWideEnough && <NavbarToggler onClick={this.onClick} />}
           <Collapse isOpen={this.state.collapse} navbar>
             <NavbarNav left>
-              <NavItem active className="mx-4">
-                <NavLink to="/">
-                  Home
-                </NavLink>
+              <NavItem className="mx-4">
+                <NavLink to="/">Home</NavLink>
               </NavItem>
               <NavItem className="mx-4">
                 <NavLink className="nav-link" to="/about">
@@ -84,7 +91,7 @@ export default class NavbarFeatures extends Component {
                   rel="noopener noreferrer"
                 >
                   Apply
-               </a>
+                </a>
               </NavItem>
               <NavItem className="mx-4">
                 <NavLink className="nav-link" to="/donate">

@@ -6,10 +6,8 @@ import Carousel from "./Carousel.jsx";
 export default class Home extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="container mt-5 pt-4">
-          <Carousel />
-        </div>
+      <div className="container-fluid">
+        <Carousel />
         <div className="container my-4 justify-content-center" id="main">
           <div className="row main">
             <div className="col-md-3">
@@ -60,15 +58,29 @@ export default class Home extends Component {
                     url={"../pics/shop-sunset.jpg"}
                   />
                 </div>
+                <div className="col-3">
+                  <ImageCard className="mx-auto" url={"../pics/b-room.jpeg"} />
+                </div>
+                <div className="col-3">
+                  <ImageCard
+                    className="mx-auto"
+                    url={"../pics/work-in-progress.jpeg"}
+                  />
+                </div>
               </div>
             </div>
             <div className="col-md-3">
               <p className="invisible">.</p>
             </div>
             <div className="col-md-6 border-bottom text-center">
-              <a href="https://www.instagram.com/magiccitywoodworks/?hl=en" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.instagram.com/magiccitywoodworks/?hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button outline color="elegant mb-4 py-4">
-                  <Fa icon="instagram" className="mx-3" /> FOLLOW @magiccitywoodworks <Fa icon="instagram" className="mx-3" />
+                  <Fa icon="instagram" className="mx-3" /> FOLLOW
+                  @magiccitywoodworks <Fa icon="instagram" className="mx-3" />
                 </Button>
               </a>
             </div>
