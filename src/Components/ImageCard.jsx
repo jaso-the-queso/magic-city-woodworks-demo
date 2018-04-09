@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { Card, CardImage } from "mdbreact";
+import { Card, CardImage, View } from "mdbreact";
 export default class ImageCard extends Component {
   constructor(props) {
     super(props);
@@ -12,10 +12,12 @@ export default class ImageCard extends Component {
     return (
       <Fragment>
         <Card wide>
-          <CardImage
-            className="img-fluid z-depth-1-half"
-            src={`${this.state.imgUrl}`}
-          />
+          <View zoom>
+            <CardImage
+              className="img-fluid z-depth-1-half"
+              src={`${this.state.imgUrl}`}
+            />
+          </View>
         </Card>
       </Fragment>
     );
