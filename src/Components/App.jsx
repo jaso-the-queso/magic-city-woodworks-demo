@@ -6,6 +6,16 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Gallery from "./Gallery";
+import Video_Gallery_1 from "./Video_Gallery_1";
+import Video_Gallery_2 from "./Video_Gallery_2";
+import Video_Gallery_3 from "./Video_Gallery_3";
+import Video_Gallery_4 from "./Video_Gallery_4";
+import Video_Gallery_5 from "./Video_Gallery_5";
+import Video_Gallery_6 from "./Video_Gallery_6";
+import Video_Gallery_7 from "./Video_Gallery_7";
+import Video_Gallery_8 from "./Video_Gallery_8";
+import Video_Gallery_9 from "./Video_Gallery_9";
+
 import Donate from "./Donate";
 import Map from "./Map";
 import Shop_Main from "./Shop_Main";
@@ -46,6 +56,16 @@ export default class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/gallery" component={Gallery} />
+            <Route exact path="/video_gallery_1" component={Video_Gallery_1} />
+            <Route exact path="/video_gallery_2" component={Video_Gallery_2} />
+            <Route exact path="/video_gallery_3" component={Video_Gallery_3} />
+            <Route exact path="/video_gallery_4" component={Video_Gallery_4} />
+            <Route exact path="/video_gallery_5" component={Video_Gallery_5} />
+            <Route exact path="/video_gallery_6" component={Video_Gallery_6} />
+            <Route exact path="/video_gallery_7" component={Video_Gallery_7} />
+            <Route exact path="/video_gallery_8" component={Video_Gallery_8} />
+            <Route exact path="/video_gallery_9" component={Video_Gallery_9} />
+
             <Route exact path="/donate" component={Donate} />
             <Route exact path="/location" component={Map} />
             <Route exact path="/shop_main" component={Shop_Main} />

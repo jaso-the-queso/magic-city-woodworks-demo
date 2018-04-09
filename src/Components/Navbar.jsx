@@ -73,7 +73,7 @@ export default class NavbarFeatures extends Component {
                 </NavLink>
                 <div className="dropdown-content">
                   <a href="/gallery">Photo Gallery</a>
-                  <a href="/video_gallery">Video Gallery</a>
+                  <a href="/video_gallery_1">Video Gallery</a>
                 </div>
               </NavItem>
               <NavItem className="mx-4">
