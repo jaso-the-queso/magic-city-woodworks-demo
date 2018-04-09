@@ -6,6 +6,16 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Gallery from "./Gallery";
+import Video_Gallery_1 from "./Video_Gallery_1";
+import Video_Gallery_2 from "./Video_Gallery_2";
+import Video_Gallery_3 from "./Video_Gallery_3";
+import Video_Gallery_4 from "./Video_Gallery_4";
+import Video_Gallery_5 from "./Video_Gallery_5";
+import Video_Gallery_6 from "./Video_Gallery_6";
+import Video_Gallery_7 from "./Video_Gallery_7";
+import Video_Gallery_8 from "./Video_Gallery_8";
+import Video_Gallery_9 from "./Video_Gallery_9";
+
 import Donate from "./Donate";
 import Map from "./Map";
 import Shop_Main from "./Shop_Main";
@@ -41,36 +51,112 @@ export default class App extends Component {
         <Fragment>
           <Nav />
           <Switch>
-            
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/gallery" component={Gallery} />
+            <Route exact path="/video_gallery_1" component={Video_Gallery_1} />
+            <Route exact path="/video_gallery_2" component={Video_Gallery_2} />
+            <Route exact path="/video_gallery_3" component={Video_Gallery_3} />
+            <Route exact path="/video_gallery_4" component={Video_Gallery_4} />
+            <Route exact path="/video_gallery_5" component={Video_Gallery_5} />
+            <Route exact path="/video_gallery_6" component={Video_Gallery_6} />
+            <Route exact path="/video_gallery_7" component={Video_Gallery_7} />
+            <Route exact path="/video_gallery_8" component={Video_Gallery_8} />
+            <Route exact path="/video_gallery_9" component={Video_Gallery_9} />
+
             <Route exact path="/donate" component={Donate} />
             <Route exact path="/location" component={Map} />
             <Route exact path="/shop_main" component={Shop_Main} />
             <Route exact path="/shop_main/apparel" component={Apparel} />
-            <Route exact path="/shop_main/cutting_boards" component={Cutting_Boards} />
-            <Route exact path="/shop_main/company_gifts" component={Company_Gifts} />
-            <Route exact path="/shop_main/custom_work" component={Custom_Work} />
+            <Route
+              exact
+              path="/shop_main/cutting_boards"
+              component={Cutting_Boards}
+            />
+            <Route
+              exact
+              path="/shop_main/company_gifts"
+              component={Company_Gifts}
+            />
+            <Route
+              exact
+              path="/shop_main/custom_work"
+              component={Custom_Work}
+            />
             <Route exact path="/cart" component={Cart} />
 
-            <Route exact path="/shop_main/coasters_sale" component={Coasters_Sale} />
-            <Route exact path="/shop_main/juice_groove_cutting_board_sale" component={Juice_Groove_Cutting_Board_Sale} />
-            <Route exact path="/shop_main/desk_organizer_sale" component={Desk_Organizer_Sale} />
-            <Route exact path="/shop_main/assorted_chopping_block_sale" component={Assorted_Chopping_Block_Sale} />
-            <Route exact path="/shop_main/walnut_chopping_block_sale" component={Walnut_Chopping_Block_Sale} />
-            <Route exact path="/shop_main/oak_chopping_block_sale" component={Oak_Chopping_Block_Sale} />
-            <Route exact path="/shop_main/measure_twice_tee_sale" component={Measure_Twice_Tee_Sale} />
-            <Route exact path="/shop_main/magic_city_tee_grey_navy_sale" component={Magic_City_Tee_Grey_Navy_Sale} />
-            <Route exact path="/shop_main/classic_tee_oatmeal_sale" component={Classic_Tee_Oatmeal_Sale} />
-            <Route exact path="/shop_main/magic_city_tee_grey_sale" component={Magic_City_Tee_Grey_Sale} />
-            <Route exact path="/shop_main/magic_city_tee_navy_sale" component={Magic_City_Tee_Navy_Sale} />
-            <Route exact path="/shop_main/classic_tee_navy_sale" component={Classic_Tee_Navy_Sale} />
-            <Route exact path="/shop_main/sweatshirt_dark_sale" component={Sweatshirt_Dark_Sale} />
-            <Route exact path="/shop_main/sweatshirt_light_sale" component={Sweatshirt_Light_Sale} />
+            <Route
+              exact
+              path="/shop_main/coasters_sale"
+              component={Coasters_Sale}
+            />
+            <Route
+              exact
+              path="/shop_main/juice_groove_cutting_board_sale"
+              component={Juice_Groove_Cutting_Board_Sale}
+            />
+            <Route
+              exact
+              path="/shop_main/desk_organizer_sale"
+              component={Desk_Organizer_Sale}
+            />
+            <Route
+              exact
+              path="/shop_main/assorted_chopping_block_sale"
+              component={Assorted_Chopping_Block_Sale}
+            />
+            <Route
+              exact
+              path="/shop_main/walnut_chopping_block_sale"
+              component={Walnut_Chopping_Block_Sale}
+            />
+            <Route
+              exact
+              path="/shop_main/oak_chopping_block_sale"
+              component={Oak_Chopping_Block_Sale}
+            />
+            <Route
+              exact
+              path="/shop_main/measure_twice_tee_sale"
+              component={Measure_Twice_Tee_Sale}
+            />
+            <Route
+              exact
+              path="/shop_main/magic_city_tee_grey_navy_sale"
+              component={Magic_City_Tee_Grey_Navy_Sale}
+            />
+            <Route
+              exact
+              path="/shop_main/classic_tee_oatmeal_sale"
+              component={Classic_Tee_Oatmeal_Sale}
+            />
+            <Route
+              exact
+              path="/shop_main/magic_city_tee_grey_sale"
+              component={Magic_City_Tee_Grey_Sale}
+            />
+            <Route
+              exact
+              path="/shop_main/magic_city_tee_navy_sale"
+              component={Magic_City_Tee_Navy_Sale}
+            />
+            <Route
+              exact
+              path="/shop_main/classic_tee_navy_sale"
+              component={Classic_Tee_Navy_Sale}
+            />
+            <Route
+              exact
+              path="/shop_main/sweatshirt_dark_sale"
+              component={Sweatshirt_Dark_Sale}
+            />
+            <Route
+              exact
+              path="/shop_main/sweatshirt_light_sale"
+              component={Sweatshirt_Light_Sale}
+            />
             <Route exact path="/shop_main/patch_sale" component={Patch_Sale} />
-
           </Switch>
           <FooterPage />
         </Fragment>
