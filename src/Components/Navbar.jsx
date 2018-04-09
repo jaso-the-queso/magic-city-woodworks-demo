@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import {
   Navbar,
   NavbarBrand,
@@ -6,7 +7,6 @@ import {
   NavbarToggler,
   Collapse,
   NavItem,
-  NavLink,
   Fa
 } from "mdbreact";
 
@@ -45,17 +45,17 @@ export default class NavbarFeatures extends Component {
           <Collapse isOpen={this.state.collapse} navbar>
             <NavbarNav left>
               <NavItem className="mx-4">
-                <NavLink to="/">Home</NavLink>
+                <Link to="/" className="nav-link">Home</Link>
               </NavItem>
               <NavItem className="mx-4">
-                <NavLink className="nav-link" to="/about">
+                <Link className="nav-link" to="/about">
                   About Us
-                </NavLink>
+                </Link>
               </NavItem>
               <NavItem className="dropdown mx-4">
-                <NavLink className="nav-link dropbtn" to="/shop_main">
+                <Link className="nav-link dropbtn" to="/shop_main">
                   Shop
-                </NavLink>
+                </Link>
                 <div className="dropdown-content">
                   <a href="/shop_main">Shop Home</a>
                   <a href="/shop_main/apparel">Apparel</a>
@@ -65,21 +65,21 @@ export default class NavbarFeatures extends Component {
                 </div>
               </NavItem>
               <NavItem className="mx-4">
-                <NavLink className="nav-link" to="/cart">
+                <Link className="nav-link" to="/cart">
                   Cart
-                </NavLink>
+                </Link>
               </NavItem>
               <NavItem className="mx-4">
-                <NavLink className="nav-link" to="/contact">
+                <Link className="nav-link" to="/contact">
                   Contact
-                </NavLink>
+                </Link>
               </NavItem>
               <NavItem className="dropdown mx-4">
-                <NavLink className="nav-link dropbtn" to="/gallery">
+                <Link className="nav-link dropbtn" to="/gallery">
                   Gallery
-                </NavLink>
+                </Link>
                 <div className="dropdown-content">
-                  <a href="/gallery">Photo Gallery</a>
+                  <Link to="/gallery">Photo Gallery</Link>
                   <a href="/video_gallery_1">Video Gallery</a>
                 </div>
               </NavItem>
@@ -94,9 +94,9 @@ export default class NavbarFeatures extends Component {
                 </a>
               </NavItem>
               <NavItem className="mx-4">
-                <NavLink className="nav-link" to="/donate">
+                <Link className="nav-link" to="/donate">
                   Donate
-                </NavLink>
+                </Link>
               </NavItem>
               {/* <NavItem className="mx-4">
                 <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>

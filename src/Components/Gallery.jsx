@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 import TablesCar from "./Tables_Car";
 import EdgeCar from "./Edge_Car";
@@ -10,14 +11,14 @@ export default class Gallery extends Component {
       <div>
         <div className="container mt-5 pt-5 justify-content-center" id="main">
           <div className="row main mt-4 ">
-            <div className="col-md-3">
+            <div className="col-md-2">
               <p className="invisible">.</p>
             </div>
-            <div className="col-md-6 text-center">
+            <div className="col-md-8 text-center">
               <h1 className="font-weight-bold">Photo Gallery</h1>
             </div>
-            <div className="col-md-3">
-              <p className="invisible">.</p>
+            <div className="col-md-2">
+              <Link to="/video_gallery_1" className="text-right black-text">Video Gallery</Link>
             </div>
           </div>
 
