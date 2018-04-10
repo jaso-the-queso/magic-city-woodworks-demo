@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Button, Card, CardBody, CardImage, CardText } from 'mdbreact';
+import { Button, Card, CardBody, CardImage, CardText, View } from 'mdbreact';
 
 export default class Company_Gifts extends Component {
 
@@ -9,10 +9,10 @@ export default class Company_Gifts extends Component {
             <div className="container mt-5 pt-5">
                 <div className="row justify-content-start">
                     <ul className="list-unstyled d-inline mt-4">
-                        <Link to="/shop_main" className="d-inline text-dark p-3">Shop Home</Link>
-                        <Link to="/shop_main/apparel" className="d-inline text-dark p-3">Apparel</Link>
-                        <Link to="/shop_main/cutting_boards" className="d-inline text-dark p-3">Cutting Boards</Link>
-                        <Link to="/shop_main/custom_work" className="d-inline text-dark p-3">Custom Work</Link>
+                        <Link to="/shop_main" className="d-inline Nav_link p-3">Shop Home</Link>
+                        <Link to="/shop_main/apparel" className="d-inline Nav_link p-3">Apparel</Link>
+                        <Link to="/shop_main/cutting_boards" className="d-inline Nav_link p-3">Cutting Boards</Link>
+                        <Link to="/shop_main/custom_work" className="d-inline Nav_link p-3">Custom Work</Link>
                     </ul>
                 </div>
 
@@ -25,7 +25,9 @@ export default class Company_Gifts extends Component {
                     <Card className="col-md-3 border-0 text-left">
                         <p>1. BUY COASTERS</p>
                         <Link to="/shop_main/coasters_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/small_3.jpg" alt="Wooden Coasters" />
+                            <View zoom>
+                                <CardImage className="img-fluid rounded" src="../pics/small_3.jpg" alt="Wooden Coasters" />
+                            </View>
                             <CardBody>
                                 <h6>Wooden Coasters</h6>
                                 <CardText>$20.00</CardText>
@@ -36,7 +38,9 @@ export default class Company_Gifts extends Component {
                     <Card className="col-md-3 border-0">
                         <p>2. BUY DESK ORG.</p>
                         <Link to="/shop_main/desk_organizer_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/organizer_1.jpg" alt="Desk Organizer" />
+                            <View zoom>
+                                <CardImage className="img-fluid rounded" src="../pics/organizer_1.jpg" alt="Desk Organizer" />
+                            </View>
                             <CardBody>
                                 <h6>Desk Organizer</h6>
                                 <CardText>$30.00</CardText>
@@ -47,7 +51,9 @@ export default class Company_Gifts extends Component {
                     <Card className="col-md-3 border-0">
                         <p>3. BUY CUTTING BOARDS</p>
                         <Link to="/shop_main/juice_groove_cutting_board_sale" className="text-dark">
-                            <CardImage className="img-fluid rounded" src="../pics/groove_1.jpg" alt="Juice Groove Cutting Board" />
+                            <View zoom>
+                                <CardImage className="img-fluid rounded" src="../pics/groove_1.jpg" alt="Juice Groove Cutting Board" />
+                            </View>
                             <CardBody>
                                 <h6>Juice Groove Cutting Board</h6>
                                 <CardText>$70.00</CardText>

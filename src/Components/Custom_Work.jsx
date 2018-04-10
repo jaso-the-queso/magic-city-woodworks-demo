@@ -8,10 +8,10 @@ export default class Custom_Work extends Component {
             <div className="container pt-5 mt-5">
                 <div className="row justify-content-start ">
                     <ul className="list-unstyled d-inline mt-4">
-                        <Link to="/shop_main" className="d-inline text-dark p-3">Shop Home</Link>
-                        <Link to="/shop_main/apparel" className="d-inline text-dark p-3">Apparel</Link>
-                        <Link to="/shop_main/cutting_boards" className="d-inline text-dark p-3">Cutting Boards</Link>
-                        <Link to="/shop_main/company_gifts" className="d-inline text-dark p-3">Company Gifts</Link>
+                        <Link to="/shop_main" className="d-inline Nav_link p-3">Shop Home</Link>
+                        <Link to="/shop_main/apparel" className="d-inline Nav_link p-3">Apparel</Link>
+                        <Link to="/shop_main/cutting_boards" className="d-inline Nav_link p-3">Cutting Boards</Link>
+                        <Link to="/shop_main/company_gifts" className="d-inline Nav_link p-3">Company Gifts</Link>
                     </ul>
                 </div>
 

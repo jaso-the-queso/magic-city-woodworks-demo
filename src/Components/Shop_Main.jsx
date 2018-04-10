@@ -8,24 +8,24 @@ export default class Shop_Main extends Component {
       <div className="container mt-5 pt-5">
         <div className="row justify-content-start">
           <ul className="list-unstyled d-inline mt-4">
-            <Link to="/shop_main/apparel" className="d-inline text-dark p-3">
+            <Link to="/shop_main/apparel" className="d-inline p-3 Nav_link">
               Apparel
             </Link>
             <Link
               to="/shop_main/cutting_boards"
-              className="d-inline text-dark p-3"
+              className="d-inline p-3 Nav_link"
             >
               Cutting Boards
             </Link>
             <Link
               to="/shop_main/company_gifts"
-              className="d-inline text-dark p-3"
+              className="d-inline p-3 Nav_link"
             >
               Company Gifts
             </Link>
             <Link
               to="/shop_main/custom_work"
-              className="d-inline text-dark p-3"
+              className="d-inline p-3 Nav_link"
             >
               Custom Work
             </Link>

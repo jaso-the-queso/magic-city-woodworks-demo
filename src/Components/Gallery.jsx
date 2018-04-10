@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { View } from "mdbreact";
 
 import TablesCar from "./Tables_Car";
 import EdgeCar from "./Edge_Car";
@@ -18,7 +19,7 @@ export default class Gallery extends Component {
               <h1 className="font-weight-bold">Photo Gallery</h1>
             </div>
             <div className="col-md-2">
-              <Link to="/video_gallery_1" className="text-right black-text">Video Gallery</Link>
+              <NavLink to="/video_gallery_1" className="text-right Nav_link">Video Gallery</NavLink>
             </div>
           </div>
 
@@ -104,16 +105,24 @@ export default class Gallery extends Component {
           </div>
           <div className="row main mb-4">
             <div className="col-md-3 smalls">
-              <img src="../pics/small_1.jpg" alt="img-1" />
+              <View zoom>
+                <img src="../pics/small_1.jpg" alt="img-1" />
+              </View>
             </div>
             <div className="col-md-3 smalls">
-              <img src="../pics/small_2.jpg" alt="img-2" />
+              <View zoom>
+                <img src="../pics/small_2.jpg" alt="img-2" />
+              </View>
             </div>
             <div className="col-md-3 smalls">
-              <img src="../pics/small_3.jpg" alt="img-3" />
+              <View zoom>
+                <img src="../pics/small_3.jpg" alt="img-3" />
+              </View>
             </div>
             <div className="col-md-3 smalls">
-              <img src="../pics/small_4.jpg" alt="img-4" />
+              <View zoom>
+                <img src="../pics/small_4.jpg" alt="img-4" />
+              </View>
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { View } from "mdbreact";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default class Video_Gallery_1 extends Component {
     render() {
@@ -16,7 +16,7 @@ export default class Video_Gallery_1 extends Component {
                             <h1 className="font-weight-bold">Video Gallery</h1>
                         </div>
                         <div className="col-md-2">
-                            <Link to="/gallery" className="text-right black-text">Photo Gallery</Link>
+                            <NavLink to="/gallery" className="text-right Nav_link" activeClassName="activeRoute" activeStyle={{ color: 'red' }}>Photo Gallery</NavLink>
                         </div>
                     </div>
 

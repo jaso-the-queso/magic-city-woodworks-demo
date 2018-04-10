@@ -15,7 +15,7 @@ export default class FooterPage extends Component {
       <Footer color="black" className="font-small pt-4 mt-4" id="footer">
         <Container className="text-left">
           <Row>
-            <Col sm="2">
+            <Col sm="3">
               <h5 className="title font-weight-bold">MAGIC CITY WOODWORKS</h5>
               <p>
                 931 28th Street North <br /> Birmingham, AL
@@ -40,7 +40,7 @@ export default class FooterPage extends Component {
                 </li>
               </ul>
             </Col>
-            <Col sm="2">
+            <Col sm="3">
               <h5 className="title">SOCIAL</h5>
               <ul className="list-unstyled">
                 <li>

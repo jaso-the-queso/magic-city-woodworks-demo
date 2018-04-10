@@ -29,18 +29,6 @@ body {
   height: 100%;
 }
 
-#main {
-  overflow: auto;
-  /* padding-bottom: 20em; */
-}
-
-#footer {
-  position: relative;
-  margin-top: -20em;
-  height: 20em;
-  clear: both;
-}
-
 .smalls {
   height: 200px;
   width: 300px;
@@ -179,6 +167,23 @@ h1, h2, h3, h4, h5, h6 {
   overflow-x: scroll;
 }
 
-.hover:hover {
-  color: purple;
+.Nav_link:link {
+  color: black;
+}
+
+.Nav_link:visited {
+  color: black;
+}
+
+.Nav_link:hover {
+  color: grey;
+}
+
+.Nav_link:active {
+  color: rgb(199, 196, 196);
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
 }
