@@ -1,24 +1,23 @@
-
 /* .view {
   background: url("https://static1.squarespace.com/static/52a4ebc0e4b03685242eb1df/590cd8aec534a56c758faf51/5a2fea899140b7e21b739c37/1513951595039/Opening+Banner.png?format=1500w")no-repeat center center;
   background-size: cover;
   height: 50em;
 }     */
 .navbar {
-  background-color: transparent;
+  background-color: black;
 }
 .top-nav-collapse {
   background-color: rgb(0, 0, 0);
 }
 @media only screen and (max-width: 768px) {
   .navbar {
-      background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
   }
 }
 
 .test {
-  width: 20px;
-  height: 20px;
+  width: 152px;
+  height: 60px;
 }
 
 * {
@@ -28,22 +27,6 @@
 
 body {
   height: 100%;
-}
-
-#wrap {
-  min-height: 100%;
-}
-
-#main {
-  overflow: auto;
-  /* padding-bottom: 20em; */
-}
-
-#footer {
-  position: relative;
-  margin-top: -20em;
-  height: 20em;
-  clear: both;
 }
 
 .smalls {
@@ -57,7 +40,150 @@ body {
   width: 300px;
 }
 
+.shop-crop {
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.shop-crop img {
+  height: auto;
+  width: 400px;
+}
+
+.button-text {
+  font-size: 5vw;
+}
+
+.video-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: black;
+}
 /* .product_carousel img {
   height: 400px;
   max-height: 400px;
 } */
+
+@font-face {
+  font-family: Yantramanav-Light;
+  src: url('../fonts/Yantramanav/Yantramanav-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Yantramanav-Bold;
+  src: url('../fonts/Yantramanav/Yantramanav-Bold.ttf') format('truetype');
+}
+
+p, div, btn, Link, li {
+  font-family: 'Yantramanav-Light';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yantramanav-Bold';
+}
+
+.vid-container {
+	position: relative;
+	padding-bottom: 52%;
+	padding-top: 30px; 
+	height: 0; 
+}
+
+.vid-container iframe,
+.vid-container object,
+.vid-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.vid-item {
+	display: block;
+	width: 148px;
+	height: 148px;
+	float: left;
+	padding: 10px;
+}
+
+.thumb {
+	overflow:hidden;
+	height: 84px;
+}
+
+.thumb img {
+	width: 100%;
+	position: relative;
+}
+
+.scroll {
+  overflow-x: scroll;
+}
+
+.Nav_link:link {
+  color: black;
+}
+
+.Nav_link:visited {
+  color: black;
+}
+
+.Nav_link:hover {
+  color: grey;
+}
+
+.Nav_link:active {
+  color: rgb(199, 196, 196);
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}

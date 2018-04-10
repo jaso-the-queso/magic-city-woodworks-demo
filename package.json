@@ -4,12 +4,17 @@
   "private": true,
   "dependencies": {
     "bootstrap": "4.0.0",
+    "chart.js": "^2.7.2",
+    "components": "^0.1.0",
     "font-awesome": "4.7.0",
+    "google-map-react": "^0.34.0",
     "mdbreact": "git+https://github.com/mdbootstrap/React-Bootstrap-with-Material-Design.git",
     "react": "^16.2.0",
+    "react-chartjs-2": "^2.7.0",
     "react-dom": "^16.2.0",
     "react-error-overlay": "4.0.0",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "styled": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
